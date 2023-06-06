@@ -1,0 +1,276 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: simple order food restaurant
+  steps:
+  - user: |
+      Xin chào
+    intent: greet
+  - action: action_greet
+  - user: |
+      [đặt tiệc]{"entity": "service"}
+    intent: answer_service
+  - action: ask_name_food
+  - user: |
+      Cho tôi món [số 25]{"entity": "name_food"}
+    intent: customer_order_food
+  - action: get_name_food
+  - action: question_quantity_food
+  - user: |
+      Cho tôi [5]{"entity": "quantity_food"} phần
+    intent: anwser_quantity_food
+  - action: question_add_food
+  - user: |
+      Thêm món
+    intent: confirm_add_order_food
+  - action: ask_name_food
+  - user: |
+      Cho tôi món [tôm càng rang]{"entity": "name_food"}
+    intent: customer_order_food
+  - action: get_name_food
+  - action: question_quantity_food
+  - user: |
+      [5]{"entity": "quantity_food"}
+    intent: anwser_quantity_food
+  - action: question_add_food
+  - user: |
+      Thêm
+    intent: confirm_add_order_food
+  - action: ask_name_food
+  - user: |
+      Cho tôi món [thứ 32]{"entity": "name_food"}
+    intent: customer_order_food
+  - action: get_name_food
+  - action: question_quantity_food
+  - user: |
+      Cho [5]{"entity": "quantity_food"}
+    intent: anwser_quantity_food
+  - action: question_add_food
+  - user: |
+      Không thêm
+    intent: deny_add_order_food
+  - action: display_food
+  - user: |
+      đúng
+    intent: confirm_information_food
+  - action: question_quantity_people
+  - user: |
+      [5]{"entity": "quantity_people"}
+    intent: answer_quantity_people
+  - action: get_quantity_people
+  - user: |
+      [9 giờ sáng]{"entity": "time"} [ngày mai]{"entity": "day"}
+    intent: the_time_using_service
+  - action: get_time_using
+  - action: ask_name_customer
+  - user: |
+      Tôi tên là [An]{"entity": "name_customer"}
+    intent: answer_name
+  - action: get_name_customer
+  - user: |
+      [012345688789](phone_number) 
+    intent: answer_phone_number
+  - action: get_phone_number
+  - action: display_information_customer
+  - user: |
+      thông tin chính xác
+    intent: confirm_information
+  - action: goodbye
+  
+- story: simple order food restaurant loop order name food
+  steps: 
+  - user: |
+      Xin chào
+    intent: greet
+  - action: action_greet
+  - user: |
+      [đặt tiệc]{"entity": "service"}
+    intent: answer_service
+  - action: ask_name_food
+  - user: |
+      Cho tôi món [bánh mì]{"entity": "name_food"}
+    intent: customer_order_food
+  - action: get_name_food
+  - action: question_quantity_food
+  - user: |
+      Cho tôi món [tôm càng rang]{"entity": "name_food"}
+    intent: customer_order_food
+  - action: get_name_food
+  - action: question_quantity_food
+
+- story: action change list food
+  steps: 
+  - user: |
+      Không thêm
+    intent: deny_add_order_food
+  - action: display_food
+  - user: |
+      Không đúng
+    intent: don't_agreet_information
+  - action: question_infor_food_change
+  - user: |
+      tôi muốn thay đổi [tên món ăn]{"entity": "infor_food_change"}
+    intent: infor_food_customer_change
+  - action: get_infor_change_food
+  - action: question_food_change
+  - user: |
+      tôi muốn thay đổi món [Bánh mochi]{"entity": "name_food_delete"} thành món [Bánh su với kem phomai hạt dẻ]{"entity": "name_food"}
+    intent: change_food
+  - action: change_list_food
+  - action: give_anou_updated_list_food
+  - action: display_food
+  - user: |
+      sai
+    intent: don't_agreet_information
+  - action: question_infor_food_change
+  - user: |
+      chị muốn giảm [số lượng phần ăn]{"entity": "infor_food_change"}
+    intent: infor_food_customer_change
+  - action: get_infor_change_food
+  - action: question_food_change
+  - user: |
+      giảm số lượng món [Chè hạnh nhân tàu hũ]{"entity": "name_food"} thành [18]{"entity": "quantity_food"} phần
+    intent: change_food
+  - action: change_list_food
+  - action: give_anou_updated_list_food
+  - action: display_food
+  - user: |
+      Tôi muốn thay đổi
+    intent: don't_agreet_information
+  - action: question_infor_food_change
+  - user: |
+      tôi muốn [hủy món]{"entity": "infor_food_change"}
+    intent: infor_food_customer_change
+  - action: get_infor_change_food
+  - action: question_food_change
+  - user: |
+      hủy món [Súp bào ngư]{"entity": "name_food_delete"} giúp tôi nhé
+    intent: change_food
+  - action: change_list_food
+  - action: give_anou_updated_list_food
+  - action: display_food
+
+- story: action change list food loop change
+  steps: 
+  - user: |
+      Không thêm
+    intent: deny_add_order_food
+  - action: display_food
+  - user: |
+      tôi muốn thay đổi [tên món ăn]{"entity": "infor_food_change"}
+    intent: infor_food_customer_change
+  - action: get_infor_change_food
+  - action: question_food_change
+  - user: |
+      tôi muốn thay đổi món [Bánh mochi]{"entity": "name_food_delete"} thành món [Bánh su với kem phomai hạt dẻ]{"entity": "name_food"}
+    intent: change_food
+  - action: change_list_food
+  - action: give_anou_updated_list_food
+  - action: display_food
+  - user: |
+      chị muốn giảm [số lượng phần ăn]{"entity": "infor_food_change"}
+    intent: infor_food_customer_change
+  - action: get_infor_change_food
+  - action: question_food_change
+  - user: |
+      giảm số lượng món [Chè hạnh nhân tàu hũ]{"entity": "name_food"} thành [18]{"entity": "quantity_food"} phần
+    intent: change_food
+  - action: change_list_food
+  - action: give_anou_updated_list_food
+  - action: display_food
+  - user: |
+      tôi muốn [hủy món]{"entity": "infor_food_change"}
+    intent: infor_food_customer_change
+  - action: get_infor_change_food
+  - action: question_food_change
+  - user: |
+      hủy món [Súp bào ngư]{"entity": "name_food_delete"} giúp tôi nhé
+    intent: change_food
+  - action: change_list_food
+  - action: give_anou_updated_list_food
+  - action: display_food
+
+- story: simple order food restaurant loop change list food
+  steps: 
+  - user: |
+      giảm số lượng món [Chè hạnh nhân tàu hũ]{"entity": "name_food"} thành [18]{"entity": "quantity_food"} phần
+    intent: change_food
+  - action: change_list_food
+  - user: |
+      hủy món [Súp bào ngư]{"entity": "name_food_delete"} giúp tôi nhé
+    intent: change_food
+  - action: change_list_food
+  - user: |
+      tôi muốn thay đổi món [Bánh mochi]{"entity": "name_food_delete"} thành món [Bánh su với kem phomai hạt dẻ]{"entity": "name_food"}
+    intent: change_food
+  - action: change_list_food
+
+- story: action change list information
+  steps: 
+  - user: |
+      [012345688789](phone_number)
+    intent: answer_phone_number
+  - action: get_phone_number
+  - action: display_information_customer
+  - user: |
+      Không đúng
+    intent: don't_agreet_information
+  - action: question_infor_change
+  - user: |
+      điều chỉ lại [tên]{"entity": "infor_change"} của tôi
+    intent: confirm_change_infor
+  - action: get_infor_change
+  - action: question_infor_change_of_customer
+  - user: |
+      tên anh là [Tùng]{"entity": "name_customer"}
+    intent: infor_change_of_customer
+  - action: get_infor_of_customer
+  - action: update_infor_of_customer
+  - action: display_information_customer
+  - user: |
+      sai rồi
+    intent: don't_agreet_information
+  - action: question_infor_change
+  - user: |
+      thay đổi [số lượng chỗ ngồi]{"entity": "infor_change"}
+    intent: confirm_change_infor
+  - action: get_infor_change
+  - action: question_infor_change_of_customer
+  - user: |
+      đổi lại số chỗ ngồi [9]{"entity": "quantity_people"}
+    intent: infor_change_of_customer
+  - action: get_infor_of_customer
+  - action: update_infor_of_customer
+  - action: display_information_customer
+
+- story: action change list information loop
+  steps: 
+  - user: |
+      [012345688789](phone_number)
+    intent: answer_phone_number
+  - action: get_phone_number
+  - action: display_information_customer
+  - user: |
+      tôi muốn thay đổi [phone_number]{"entity": "infor_change"}
+    intent: confirm_change_infor
+  - action: get_infor_change
+  - action: question_infor_change_of_customer
+  - user: |
+      số tôi là [013644897]{"entity": "phone_number"}
+    intent: infor_change_of_customer
+  - action: get_infor_of_customer
+  - action: update_infor_of_customer
+  - action: display_information_customer
+  - user: |
+      tôi muốn thay đổi [time_using]{"entity": "infor_change"}
+    intent: confirm_change_infor
+  - action: get_infor_change
+  - action: question_infor_change_of_customer
+  - user: |
+      thời gian chị muốn sử dụng [11 giờ trưa]{"entity": "time"} [mai]{"entity": "day"}
+    intent: infor_change_of_customer
+  - action: get_infor_of_customer
+  - action: update_infor_of_customer
+  - action: display_information_customer
+  

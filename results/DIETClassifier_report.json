@@ -1,0 +1,140 @@
+{
+  "day": {
+    "precision": 0.9493670886075949,
+    "recall": 0.7978723404255319,
+    "f1-score": 0.8670520231213873,
+    "support": 94,
+    "confused_with": {
+      "time": 16,
+      "name_food": 3
+    }
+  },
+  "phone_number": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 45,
+    "confused_with": {}
+  },
+  "weekday": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18,
+    "confused_with": {}
+  },
+  "infor_change": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 77,
+    "confused_with": {}
+  },
+  "quantity_people": {
+    "precision": 1.0,
+    "recall": 0.9555555555555556,
+    "f1-score": 0.9772727272727273,
+    "support": 45,
+    "confused_with": {
+      "year": 1,
+      "quantity_food": 1
+    }
+  },
+  "month": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 46,
+    "confused_with": {}
+  },
+  "week": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 37,
+    "confused_with": {}
+  },
+  "year": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 30,
+    "confused_with": {}
+  },
+  "name_customer": {
+    "precision": 0.9680851063829787,
+    "recall": 0.994535519125683,
+    "f1-score": 0.9811320754716981,
+    "support": 183,
+    "confused_with": {
+      "time": 1
+    }
+  },
+  "infor_food_change": {
+    "precision": 0.9916666666666667,
+    "recall": 1.0,
+    "f1-score": 0.99581589958159,
+    "support": 119,
+    "confused_with": {}
+  },
+  "time": {
+    "precision": 0.8531073446327684,
+    "recall": 0.9741935483870968,
+    "f1-score": 0.9096385542168675,
+    "support": 155,
+    "confused_with": {
+      "name_customer": 3,
+      "day": 1
+    }
+  },
+  "name_food": {
+    "precision": 0.9978824775013234,
+    "recall": 0.9994697773064687,
+    "f1-score": 0.9986754966887418,
+    "support": 1886,
+    "confused_with": {
+      "quantity_food": 1
+    }
+  },
+  "service": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 18,
+    "confused_with": {}
+  },
+  "quantity_food": {
+    "precision": 0.9591836734693877,
+    "recall": 0.9591836734693877,
+    "f1-score": 0.9591836734693877,
+    "support": 49,
+    "confused_with": {
+      "year": 2
+    }
+  },
+  "name_food_delete": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 350,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.9845523329129886,
+    "recall": 0.9907994923857868,
+    "f1-score": 0.9876660341555976,
+    "support": 3152
+  },
+  "macro avg": {
+    "precision": 0.9657017415662991,
+    "recall": 0.9787206942846484,
+    "f1-score": 0.970948555018685,
+    "support": 3152
+  },
+  "weighted avg": {
+    "precision": 0.98551640349537,
+    "recall": 0.9907994923857868,
+    "f1-score": 0.9876942260810939,
+    "support": 3152
+  }
+}

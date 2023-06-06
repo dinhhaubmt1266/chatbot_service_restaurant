@@ -1,0 +1,211 @@
+greet:
+- Hi
+- Chào ad
+- Alo
+- Chào nhé
+- Chào nhá
+
+answer_service:
+- Tôi muốn đặt bàn
+- Tôi muốn đặt bàn trước
+- Tôi muốn đặt tiệc
+- đặt bàn
+- đặt tiệc
+- tôi cần đặt bàn
+- cho tôi đặt bàn nha bot
+- có dịch vụ gì vậy
+- đặt bàn tiệc ạ
+- đặt bàn nha
+
+customer_order_food:
+- Món càng cua bách hoá
+- Càng cua bách hoa
+- Bánh mochi
+- Món số 7
+- Món số 22
+- Món 24
+- Món số 18
+- Món bò nấu cay
+- món sườn non chiên
+- Món số 5
+- Món thứ 9
+- món thứ chín
+- Món bồ câu tiềm thảo mộc
+- Món số 23
+- cho anh món bánh mochi
+- cho tôi món heo sữa quay
+- đặt giúp tôi món tôm càng nướng
+- lấy tôi món bò nấu cay
+- cho tôi súp bào ngư
+- món sushi hoàng đế
+- súp hải sản
+- món bào ngư hầm nấm
+- súp nghêu kem sữa
+- bò nấu cay
+- cho tôi món thứ 6 nhé
+
+anwser_quantity_food: 
+- 10 luôn
+- 10 món
+- 10
+- 25 phần
+- 3 món nhé
+- cho tôi 6 ạ
+- cho tôi 8 món
+- số lượng 7
+- 3 nhé
+- tôi cần 9 phần
+
+confirm_add_order_food: 
+- Đặt thêm món
+- Thêm
+- thêm ạ
+- cần ạ
+- có nhé
+- thêm nha
+- cho tôi thêm nha bot
+- thêm bot
+- cần thêm
+- cho tôi thêm
+
+deny_add_order_food: 
+- không ạ
+- đủ rồi
+- không cần thêm
+- không thêm
+- không
+
+answer_quantity_people:
+- 2 người
+- Số lượng 80 người
+- 5 người nhé
+- tổng cộng 7 người
+- tôi cần 4 chỗ
+- cho tôi bàn 5 chỗ
+
+the_time_using_service:
+- Ngày 28.5
+- Vào ngày mai
+
+answer_name:
+- Tên kim
+- tên Dũng
+- Hồ Thanh Kim
+- Tôi tên là Tùng
+- Toàn nhé
+- Hoàng ạ
+
+answer_phone_number:
+- 0123456789
+- so điện thoại của tôi là 0123456789
+- sdt là 0123456789
+- 0123456789 đây nhé
+- số tôi là 0123456789
+- 0123456799 đây ạ
+
+confirm_information:
+- đúng rồi bot
+- đúng rồi nha
+- thông tin đúng
+- thông tin của tôi đúng rồi
+- đúng ạ
+- thông tin đúng rồi ạ
+
+don't_agreet_information:
+- sai rồi bot
+- cho tôi sửa bot
+- tôi cần sửa lại
+- tôi cần chỉnh lại bot
+- chỉnh lại giúp anh
+- không đúng ạ
+- chỉnh lại xíu ạ
+- chỉnh lại thông tin món ăn ạ
+- sửa lại thông tin món ăn ạ
+- sửa lại bot ơi
+- cần sửa á
+- chưa đúng cần sửa ạ
+
+confirm_information_food:
+- đúng rồi bot
+- đúng ạ
+- đúng
+- món ăn đúng rồi bot
+- danh sách món ăn đúng rồi ạ
+- đủ rồi á
+
+confirm_change_infor:
+- tên ạ
+- thay đổi thời gian ạ
+- đổi tên lại nha bot
+- đổi tên lại giúp ạ
+- tên sai rồi
+- tên tôi sai á bot
+- thời gian sai rồi bot
+- tên sai rồi bot
+- nhầm tên rồi 
+- thời gian không đúng
+- không đúng số điện thoại
+- tên sai bot
+- thay đổi ngày
+- tăng chỗ ngồi
+- giảm số lượng ghế ngồi
+- thay đổi giờ ạ
+- đổi giờ lại
+- thay đổi giờ lại nhé
+- tăng chỗ ngồi
+- đổi số điện thoại giúp tôi nhé bot
+- số điện thoại sai rồi bot
+- sdt sai bot
+
+infor_change_of_customer:
+- chỉnh lại tên tôi là Mai
+- tên tôi là Huy nhé
+- tôi tên Huy á bot
+- Huệ nha bot
+- Sửa lại là Cường ạ
+- Phú ạ
+- sửa lại số tôi là 0987456123
+- số tôi là 0987645123
+- 0987456123 số tôi đây
+- 0123469875 sửa lại giùm tôi nhé
+- 0325698741 đây nha bot sửa lại giúp tôi
+- đây ạ 02365478956
+- tăng tên 6 nhá
+- giảm lại 4 chỗ thôi
+- tôi cần bàn 6 chỗ thôi
+- 3 chỗ thôi ạ
+- bàn 4 là được rồi
+- 7 ghế nha bot
+- dời qua ngày mai nha
+- dời lại qua ngày kia
+- chuyển lại ngày hôm nay
+- hôm nay nha bot
+- chuyển sang 3 giờ chiều
+- 7 giờ tối nha bot
+
+infor_food_customer_change:
+- đổi món
+- tăng số phần món ăn
+- hủy món ăn nha
+- xóa món ăn nha bot
+- giảm số lượng món ăn
+- đổi món ăn
+- đổi món mới
+- thay đổi món 
+- hủy món giùm tôi
+- xóa món ăn giùm tôi
+- tôi không muốn sử dụng món ăn
+- hủy món nha bot
+- giảm số lượng món giùm tôi
+- thay đổi số lượng món ăn giúp tôi nha bot
+- giảm số lượng món ăn nha bot
+- tôi cần hủy món
+- tôi cần thay đổi số lượng món
+
+change_food:
+- xóa món món bào ngư hầm nấm giúp mình ạ
+- tôi không muốn sử dụng món tôm càng rang muối
+- đổi món 
+- 
+
+

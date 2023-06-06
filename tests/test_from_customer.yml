@@ -1,0 +1,1326 @@
+version: "3.0"
+nlu:
+- intent: answer_service
+  examples: |
+    - Tôi muốn [đặt bàn](service)
+    - Tôi muốn [đặt tiệc](service) trước
+    - Tôi muốn [đặt tiệc](service)
+    - [đặt bàn](service)
+    - [đặt tiệc](service)
+    - tôi cần [đặt bàn](service)
+    - cho tôi [đặt tiệc](service) nha bot
+    - [đặt tiệc](service) ạ
+    - [đặt bàn](service) nha
+- intent: greet
+  examples: |
+    - Hi
+    - Chào ad
+    - Alo
+    - Chào nhé
+    - Chào nhá
+- intent: don't_agreet_information
+  examples: |
+    - sai rồi bot
+    - cho tôi sửa bot
+    - tôi cần sửa lại
+    - tôi cần chỉnh lại bot
+    - chỉnh lại giúp anh
+    - không đúng ạ
+    - chỉnh lại xíu ạ
+    - chỉnh lại thông tin món ăn ạ
+    - sửa lại thông tin món ăn ạ
+    - sửa lại bot ơi
+    - cần sửa á
+    - chưa đúng cần sửa ạ
+- intent: anwser_quantity_food
+  examples: |
+    - [10](quantity_food) luôn
+    - [10](quantity_food) món
+    - [10](quantity_food)
+    - [25](quantity_food) phần
+    - [3](quantity_food) món nhé
+    - cho tôi [6](quantity_food) ạ
+    - cho tôi [8](quantity_food) món
+    - số lượng [7](quantity_food)
+    - [3](quantity_food) nhé
+    - tôi cần [9](quantity_food) phần
+- intent: confirm_information
+  examples: |
+    - đúng rồi bot
+    - đúng rồi nha
+    - thông tin đúng
+    - thông tin của tôi đúng rồi
+    - đúng ạ
+    - thông tin đúng rồi ạ
+- intent: answer_phone_number
+  examples: |
+    - [0123456789](phone_number)
+    - so điện thoại của tôi là [0123456789](phone_number)
+    - sdt là [0123456789](phone_number)
+    - [0123456789](phone_number) đây nhé
+    - số tôi là [0123456789](phone_number)
+    - [0123456799] đây ạ
+- intent: deny_add_order_food
+  examples: |
+    - không ạ
+    - đủ rồi
+    - không cần thêm
+    - không thêm
+    - không
+- intent: answer_quantity_people
+  examples: |
+    - [2](quantity_people) người
+    - Số lượng [80](quantity_people) người
+    - [5](quantity_people) người nhé
+    - tổng cộng [7](quantity_people) người
+    - tôi cần [4](quantity_people) chỗ
+    - cho tôi bàn [5](quantity_people) chỗ
+- intent: confirm_add_order_food
+  examples: |
+    - Đặt thêm món
+    - Thêm
+    - thêm ạ
+    - cần ạ
+    - có nhé
+    - thêm nha
+    - cho tôi thêm nha bot
+    - thêm bot
+    - cần thêm
+    - cho tôi thêm
+- intent: confirm_information_food
+  examples: |
+    - đúng rồi bot
+    - đúng ạ
+    - đúng
+    - món ăn đúng rồi bot
+    - danh sách món ăn đúng rồi ạ
+    - đủ rồi á
+- intent: confirm_change_infor
+  examples: |
+    - điều chỉnh lại [phone_number](infor_change) cho tôi
+    - tôi muốn thay đổi [thời gian sử dụng](infor_change)
+    - điều chỉ lại [số lượng người sử dụng](infor_change) của tôi
+    - thay đổi [số dt](infor_change)
+    - điều chỉ lại [chỗ ngồi](infor_change) của tôi
+    - giảm [số lượng chỗ ngồi](infor_change)
+    - [tên](infor_change) ạ
+    - thay đổi [thời gian](infor_change) ạ
+    - đổi [tên](infor_change) lại nha bot
+    - đổi [tên](infor_change) lại giúp ạ
+    - [tên](infor_change) sai rồi
+    - [tên](infor_change) tôi sai á bot
+    - [thời gian](infor_change) sai rồi bot
+    - [tên](infor_change) sai rồi bot
+    - nhầm [tên](infor_change) rồi 
+    - [thời gian](infor_change) không đúng
+    - không đúng [số điện thoại](infor_change)
+    - [tên](infor_change) sai bot
+    - thay đổi [ngày](infor_change)
+    - tăng [chỗ ngồi](infor_change)
+    - giảm [số lượng ghế ngồi](infor_change)
+    - thay đổi [giờ](infor_change) ạ
+    - đổi [giờ](infor_change) lại
+    - thay đổi [giờ](infor_change) lại nhé
+    - tăng [chỗ ngồi](infor_change)
+    - đổi [số điện thoại](infor_change) giúp tôi nhé bot
+    - [số điện thoại](infor_change) sai rồi bot
+    - [sdt](infor_change) sai bot
+- intent: answer_name
+  examples: |
+    - Tên [kim](name_customer)
+    - tên [Dũng](name_customer)
+    - [Hồ Thanh Kim](name_customer)
+    - Tôi tên là [Tùng](name_customer)
+    - [Toàn](name_customer) nhé
+    - [Hoàng](name_customer) ạ
+- intent: infor_food_customer_change
+  examples: |
+    - đổi [món ăn](infor_food_change)
+    - tăng số [phần món ăn](infor_food_change)
+    - [hủy món](infor_food_change) ăn nha
+    - [xóa món](infor_food_change) ăn nha bot
+    - giảm [số lượng món ăn](infor_food_change)
+    - đổi [món ăn](infor_food_change)
+    - đổi [món mới](infor_food_change)
+    - thay đổi [tên món ăn](infor_food_change)
+    - [hủy món](infor_food_change) giùm tôi
+    - [xóa món](infor_food_change) ăn giùm tôi
+    - tôi [không muốn sử dụng món ăn](infor_food_change)
+    - [hủy món](infor_food_change) nha bot
+    - giảm [số lượng món](infor_food_change) giùm tôi
+    - thay đổi [số lượng món ăn](infor_food_change) giúp tôi nha bot
+    - giảm [số lượng món ăn](infor_food_change) nha bot
+    - tôi cần [hủy món](infor_food_change)
+    - tôi cần thay đổi [số lượng món](infor_food_change)
+- intent: the_time_using_service
+  examples: |
+    - Ngày [28.5](day)
+    - Vào [ngày mai](day)
+    - chị đặt [5 giờ chiều](time) [mai](day) nhé
+    - [7 giờ tối](time) ngày [hôm nay](day)
+    - [thứ 3](day) lúc [10 giờ sáng](time)
+    - [ngày mai](day) [5 giờ chiều](time)
+    - [9 giờ tối](time) [hôm nay](day)
+    - [7 giờ tối](time) [ngày 25](day)
+    - [11 giờ trưa](time) [mai](day)
+    - [8 giờ tối](time) [mốt](day)
+- intent: change_food
+  examples: |
+    - xóa món [bào ngư hầm nấm](name_food_delete) giúp mình ạ
+    - tôi không muốn sử dụng món [tôm càng rang muối](name_food_delete)
+    - đổi món [Bánh mochi](name_food_delete) thành [Bánh su với kem phomai hạt dẻ](name_food) 
+    - chị muốn hủy [Bánh mochi](name_food_delete)
+    - anh không muốn đặt [Tôm càng nướng](name_food_delete)
+    - thay đổi món [Bò nấu cay kiểu Mã Lai](name_food) [5](quantity_food) phần
+    - xóa [gỏi hải sâm kèm](name_food_delete) giúp ạ
+    - tăng món [Bánh su với kem](name_food) lên [5](quantity_food) phần
+    - lấy món [Thạch xoài](name_food) thay cho món [Súp hải sản hoàng kim](name_food_delete)
+    - thay món [Bào ngư hầm nấm đông cô](name_food_delete) thành món [Thăn bò mỹ](name_food)
+    - thay đổi số lượng món [Thạch xoài](name_food) thành [5](quantity_food) 
+    - sử dụng [8](quantity_food) cho món [Bò nấu cay kiểu Mã Lai](name_food)
+    - lấy món [nem nướng cuốn cá hồi](name_food) thay cho món [Bào ngư hầm nấm đông cô](name_food_delete)
+    - sửa món [Súp hải sản hoàng kim](name_food_delete) thành món [Thạch xoài](name_food)
+    - tôi muốn thay đổi món [Baba hầm hải vị](name_food_delete) thành món [Số 1](name_food) trong menu
+    - thay giúp chị món [Gỏi hải sâm](name_food_delete) thành món [Chem chép New Zealand](name_food)
+    - thay đổi món [Bánh su với kem](name_food) thành [5](quantity_food) phần
+
+- intent: infor_change_of_customer
+  examples: |
+    - chỉnh lại tên tôi là [Mai](name_customer)
+    - tên tôi là [Huy](name_customer) nhé
+    - tôi tên [Huy](name_customer) á bot
+    - [Huệ](name_customer) nha bot
+    - Sửa lại là [Cường](name_customer) ạ
+    - [Phú](name_customer) ạ
+    - sửa lại số tôi là [0987456123](phone_number)
+    - số tôi là [0987645123](phone_number)
+    - [0987456123](phone_number) số tôi đây
+    - [0123469875](phone_number) sửa lại giùm tôi nhé
+    - [0325698741](phone_number) đây nha bot sửa lại giúp tôi
+    - đây ạ [02365478956](phone_number)
+    - tăng tên [6](quantity_people) nhá
+    - giảm lại [4](quantity_people) chỗ thôi
+    - tôi cần bàn [6](quantity_people) chỗ thôi
+    - [3](quantity_people) chỗ thôi ạ
+    - bàn [4](quantity_people) là được rồi
+    - [7](quantity_people) ghế nha bot
+    - dời qua [ngày mai](day) nha
+    - dời lại qua [ngày kia](day)
+    - chuyển lại [ngày hôm nay](day)
+    - [hôm nay](day) nha bot
+    - chuyển sang [3 giờ chiều](time)
+    - [7 giờ tối](time) nha bot
+- intent: customer_order_food
+  examples: |
+    - Món [càng cua bách hoá](name_food)
+    - [Càng cua bách hoa](name_food)
+    - [Bánh mochi](name_food)
+    - Món [số 7](name_food)
+    - Món [số 22](name_food)
+    - Món [24](name_food)
+    - Món [số 18](name_food)
+    - Món [bò nấu cay](name_food)
+    - món [sườn non chiên](name_food)
+    - Món [số 5](name_food)
+    - Món [thứ 9](name_food)
+    - món [thứ chín](name_food)
+    - Món [bồ câu tiềm thảo mộc](name_food)
+    - Món [số 23](name_food)
+    - cho anh món [bánh mochi](name_food)
+    - cho tôi món [heo sữa quay](name_food)
+    - đặt giúp tôi món [tôm càng nướng](name_food)
+    - lấy tôi món [bò nấu cay](name_food)
+    - cho tôi [súp bào ngư](name_food)
+    - món [sushi hoàng đế](name_food)
+    - [súp hải sản](name_food)
+    - món [bào ngư hầm nấm](name_food)
+    - [súp nghêu kem sữa](name_food)
+    - [bò nấu cay](name_food)
+    - cho tôi món [thứ 6](name_food) nhé
+- synonym: Baba hầm hải vị kèm bánh mì
+  examples: |
+    - Số 15
+    - số 15
+    - Số mười lăm
+    - thứ mười năm
+    - Thứ 15
+    - thứ 15
+    - Baba hầm hải vị kèm bánh mì
+    - baba hầm hải vị kèm bánh mì
+    - Baba
+    - baba
+    - Baba hầm hải vị
+    - baba hầm hải vị
+    - baba hầm
+    - Baba hầm
+- synonym: Bào ngư hầm nấm đông cô và cải thìa
+  examples: |
+    - Số 16
+    - số 16
+    - Số mười sáu
+    - thứ mười sáu
+    - Thứ 16
+    - thứ 16
+    - Bào ngư hầm nấm đông cô và cải thìa
+    - bào ngư hầm nấm đông cô và cải thìa
+    - Bào ngư
+    - bào ngư
+    - Bào ngư hầm
+    - bào ngư hầm
+    - Bào ngư hầm nấm
+    - bào ngư hầm nấm đông cô
+    - Bào ngư hầm nấm đông cô
+    - bào ngư hầm nấm đông cô và cải
+    - Bào ngư hầm nấm đông cô và cải
+- synonym: Bánh cam chiên với nước cốt dừa
+  examples: |
+    - Số 38
+    - số 38
+    - số ba tám
+    - Số ba tám
+    - Thứ 38
+    - thứ 38
+    - Thứ ba tám
+    - thứ ba tám
+    - Bánh cam chiên với nước cốt dừa
+    - bánh cam chiên với nước cốt dừa
+    - Bánh cam
+    - bánh cam
+    - Bánh cam chiên
+    - bánh cam chiên
+- synonym: Bánh kem mềm chanh dây, trái cây, vụn hạt dẻ, xốt rượu Malibu
+  examples: |
+    - Số 37
+    - số 37
+    - số ba bảy
+    - Số ba bảy
+    - Thứ 37
+    - thứ 37
+    - Thứ ba bảy
+    - thứ ba bảy
+    - Bánh kem mềm chanh dây, trái cây, vụn hạt dẻ, xốt rượu Malibu
+    - bánh kem mềm chanh dây, trái cây, vụn hạt dẻ, xốt rượu Malibu
+    - Bánh kem
+    - bánh kem
+    - Bánh kem mềm
+    - Bánh kem mềm chanh dây
+    - bánh kem mềm
+    - bánh kem mềm chanh dây
+    - bánh kem mềm chanh dây trái cây
+    - Bánh kem mềm chanh dây trái cây vụn hạt dẻ
+- synonym: Bánh mochi
+  examples: |
+    - Số 40
+    - số 40
+    - số bốn mươi
+    - Số bón mươi
+    - Thứ 40
+    - thứ 40
+    - Thứ bốn mươi
+    - thứ bón mươi
+    - Bánh mochi
+    - bánh mochi
+- synonym: Bánh su với kem phomai hạt dẻ
+  examples: |
+    - Số 35
+    - số 35
+    - số ba lăm
+    - Số ba lăm
+    - Thứ 35
+    - thứ 35
+    - Thứ ba năm
+    - thứ ba lăm
+    - Bánh su với kem phomai hạt dẻ
+    - bánh su với kem phomai hạt dẻ
+    - Bánh su với kem phomai
+    - Bánh su
+    - bánh su với kem phomai
+    - bánh su
+- synonym: Bánh tiramisu
+  examples: |
+    - Số 39
+    - số 39
+    - số ba mươi chín
+    - Số ba chín
+    - Thứ 39
+    - thứ 39
+    - Thứ ba chín
+    - thứ ba chín
+    - Bánh tiramisu
+    - bánh tiramisu
+- synonym: Bánh xốp Macaron vị trà xanh
+  examples: |
+    - Số 36
+    - số 36
+    - số ba sáu
+    - Số ba mươi sáu
+    - Thứ 36
+    - thứ 36
+    - Thứ ba mươi sáu
+    - thứ ba sáu
+    - Bánh xốp Macaron vị trà xanh
+    - Bánh xốp Macaron
+    - Bánh xốp
+    - bánh xốp Macaron vị trà xanh
+    - bánh xốp Macaron
+    - bánh xốp
+- synonym: Bò nấu cay kiểu Mã Lai kèm bánh mì
+  examples: |
+    - Số 18
+    - số 18
+    - số mười tám
+    - Số mười tám
+    - Thứ 18
+    - thứ 18
+    - Thứ mười tám
+    - thứ mười tám
+    - Bò nấu cay kiểu Mã Lai kèm bánh mì
+    - Bò nấu cay kiểu Mã Lai
+    - Bò nấu cay
+    - bò nấu cay kiểu Mã Lai kèm bánh mì
+    - bò nấu cay kiểu Mã Lai
+    - bò nấu cay
+- synonym: Bò sốt vang Marzano
+  examples: |
+    - Số 20
+    - số 20
+    - số hai mươi
+    - Số hai mươi
+    - Thứ 20
+    - thứ 20
+    - Thứ hai mươi
+    - thứ hai mươi
+    - Bò sốt vang Marzano
+    - Bò sốt vang
+    - Bò sốt
+    - bò sốt vang Marzano
+    - bò sốt vang
+    - bò sốt
+- synonym: Bò úc áp chảo
+  examples: |
+    - Số 17
+    - số 17
+    - số mười bảy
+    - Số mười bảy
+    - Thứ 17
+    - thứ 17
+    - Thứ mười bảy
+    - thứ mười bảy
+    - Bò úc áp chảo
+    - Bò úc
+    - bò úc áp chảo
+    - bò úc
+- synonym: Bồ câu tiềm thảo mộc hạt sen
+  examples: |
+    - Số 19
+    - số 19
+    - số mười chín
+    - Số mười chín
+    - Thứ 19
+    - thứ 19
+    - Thứ mười chín
+    - thứ mười chín
+    - Bồ câu tiềm thảo mộc hạt sen
+    - Bồ câu tiềm thảo mộc
+    - Bồ câu tiềm
+    - Bồ câu
+    - bồ câu tiềm thảo mộc hạt sen
+    - bồ câu tiềm thảo mộc
+    - bồ câu tiềm
+    - bồ câu
+- synonym: Chem chép New Zealand sốt tiêu
+  examples: |
+    - Số 24
+    - số 24
+    - số hai mươi tư
+    - Số hai mươi bốn
+    - số hai tư
+    - Số hai bốn
+    - Thứ 24
+    - thứ 24
+    - Thứ hai mươi bốn
+    - thứ hai mươi tư
+    - Chem chép New Zealand sốt tiêu
+    - Chem chép New Zealand
+    - Chem chép
+    - chem chép New Zealand sốt tiêu
+    - chem chép New Zealand
+    - chem chép
+- synonym: Chân ngỗng sò điệp sốt bào ngư
+  examples: |
+    - Số 22
+    - số 22
+    - số hai hai
+    - Số hai mươi hai
+    - Thứ 22
+    - thứ 22
+    - Thứ hai mươi hai
+    - thứ hai hai
+    - Chân ngỗng sò điệp sốt bào ngư
+    - Chân ngỗng sò điệp sốt
+    - Chân ngỗng sò điệp
+    - Chân ngỗng
+    - chân ngỗng sò điệp sốt bào ngư
+    - chân ngỗng sò điệp sốt
+    - chân ngỗng sò điệp
+    - chân ngỗng
+- synonym: Chè hạnh nhân tàu hũ với long nhãn
+  examples: |
+    - Số 41
+    - số 41
+    - số bốn mươi mốt
+    - Số bốn mươi mốt
+    - số bốn mươi một
+    - Số bốn mươi một
+    - Thứ 41
+    - thứ 41
+    - Thứ bốn mươi mốt
+    - thứ bốn mươi mốt
+    - Thứ bốn mươi một
+    - thứ bốn mươi một
+    - Chè hạnh nhân tàu hũ với long nhãn
+    - Chè hạnh nhân tàu hũ
+    - Chè hạnh nhân
+    - chè hạnh nhân tàu hũ với long nhãn
+    - chè hạnh nhân tàu hũ
+    - chè hạnh nhân
+- synonym: Càng cua bách hoa
+  examples: |
+    - Số 1
+    - số 1
+    - số một
+    - Số một
+    - Thứ 1
+    - thứ 1
+    - Thứ một
+    - thứ một
+    - Càng cua bách hoa
+    - càng cua bách hoa
+    - Càng cua
+    - càng cua
+- synonym: Cá hồi nướng mè
+  examples: |
+    - Số 21
+    - số 21
+    - số hai mươi mốt
+    - Số hai mươi mốt
+    - Thứ 21
+    - thứ 21
+    - Thứ hai mươi mốt
+    - thứ hai mươi mốt
+    - Cá hồi nướng mè
+    - Cá hồi nướng
+    - Cá hồi
+    - cá hồi nướng mè
+    - cá hồi nướng
+    - cá hồi
+- synonym: Cừu hầm ngũ vị, cari hành tím, tỏi đen, nấm truffle và sốt tiêu Phú Quốc
+  examples: |
+    - Số 23
+    - số 23
+    - số hai mươi ba
+    - Số hai mươi ba
+    - Thứ 23
+    - thứ 23
+    - Thứ hai mươi ba
+    - thứ hai mươi ba
+    - Cừu hầm ngũ vị, cari hành tím, tỏi đen, nấm truffle và sốt tiêu Phú Quốc
+    - Cừu hầm ngũ vị, cari hành tím, tỏi đen, nấm truffle và sốt tiêu
+    - Cừu hầm ngũ vị, cari hành tím, tỏi đen, nấm truffle
+    - Cừu hầm ngũ vị, cari hành tím, tỏi đen
+    - Cừu hầm ngũ vị, cari hành tím
+    - Cừu hầm ngũ vị
+    - Cừu hầm
+    - cừu hầm ngũ vị, cari hành tím, tỏi đen, nấm truffle và sốt tiêu Phú Quốc
+    - cừu hầm ngũ vị, cari hành tím, tỏi đen, nấm truffle và sốt tiêu
+    - cừu hầm ngũ vị, cari hành tím, tỏi đen, nấm truffle
+    - cừu hầm ngũ vị, cari hành tím, tỏi đen
+    - cừu hầm ngũ vị, cari hành tím
+    - cừu hầm ngũ vị
+    - cừu hầm
+    - cừu hầm ngũ vi cari hành tím
+    - cừu hầm ngũ vi cari hành tím tỏi đen
+- synonym: Ghẹ rang muối kiểu Âu
+  examples: |
+    - Số 26
+    - số 26
+    - số hai mươi sáu
+    - Số hai mươi sáu
+    - Thứ 26
+    - thứ 26
+    - Thứ hai mươi sáu
+    - thứ hai mươi sáu
+    - Ghẹ rang muối kiểu Âu
+    - Ghẹ rang muối
+    - Ghẹ rang
+    - ghẹ rang muối kiểu Âu
+    - ghẹ rang muối
+    - ghẹ rang
+- synonym: Gà hấp đông cô sốt bào ngư
+  examples: |
+    - Số 25
+    - số 25
+    - số hai mươi lăm
+    - Số hai mươi lăm
+    - số hai mươi năm
+    - Số hai mươi năm
+    - Thứ 25
+    - thứ 25
+    - Thứ hai mươi lăm
+    - thứ hai mươi lăm
+    - Thứ hai mươi năm
+    - thứ hai mươi năm
+    - Gà hấp đông cô sốt bào ngư
+    - Gà hấp đông cô sốt
+    - Gà hấp đông cô
+    - Gà hấp
+    - gà hấp đông cô sốt bào ngư
+    - gà hấp đông cô sốt
+    - gà hấp đông cô
+    - gà hấp
+- synonym: Gỏi hải sâm kèm bánh phồng tôm
+  examples: |
+    - Số 2
+    - số 2
+    - Thứ 2
+    - thứ 2
+    - Thứ hai
+    - Gỏi hải sâm kèm bánh phồng tôm
+    - gỏi hải sâm kèm bánh phồng tôm
+    - Gỏi hải sâm
+    - gỏi hải sâm
+- synonym: thứ 2
+  examples: |
+    - thứ hai
+- synonym: Heo sữa quay kèm bánh mỳ
+  examples: |
+    - Số 27
+    - số 27
+    - số hai mươi bảy
+    - Số hai mươi bảy
+    - Thứ 27
+    - thứ 27
+    - Thứ hai mươi bảy
+    - thứ hai mươi bảy
+    - Heo sữa quay kèm bánh mỳ
+    - Heo sữa quay
+    - Heo sữa
+    - heo sữa quay kèm bánh mỳ
+    - heo sữa quay
+    - heo sữa
+- synonym: Nem nướng cuốn cá hồi và trứng cá đen
+  examples: |
+    - Số 28
+    - số 28
+    - số hai mươi tám
+    - Số hai mươi tám
+    - Thứ 28
+    - thứ 28
+    - Thứ hai mươi tám
+    - thứ hai mươi tám
+    - Nem nướng cuốn cá hồi và trứng cá đen
+    - Nem nướng cuốn cá hồi
+    - Nem nướng cuốn
+    - Nem nướng
+    - nem nướng cuốn cá hồi và trứng cá đen
+    - nem nướng cuốn cá hồi
+    - nem nướng cuốn
+    - nem nướng
+- synonym: Salad cá ngừ
+  examples: |
+    - Số 11
+    - số 11
+    - Thứ 11
+    - thứ 11
+    - Số mười một
+    - Thứ mười một
+    - Salad cá ngừ
+    - salad cá ngừ
+- synonym: Salad hoàng đế
+  examples: |
+    - số 5
+    - Số 5
+    - số năm
+    - Số năm
+    - thứ 5
+    - Thứ năm
+    - Salad hoàng đế
+    - salad hoàng đế
+- synonym: thứ 5
+  examples: |
+    - thứ năm
+- synonym: Salad trái cây tươi & vani
+  examples: |
+    - số 44
+    - Số 44
+    - thứ 44
+    - Thứ 44
+    - Thứ bốn mươi bốn
+    - Số bốn mươi bốn
+    - Số bốn bốn
+    - Số bốn mươi tư
+    - Thứ bốn mươi tư
+    - Salad trái cây tươi & vani
+    - Salad trái cây tươi
+    - Salad trái cây
+    - salad trái cây tươi & vani
+    - salad trái cây tươi
+    - salad trái cây
+- synonym: Sushi thập cẩm
+  examples: |
+    - Số 4
+    - số 4
+    - Thứ 4
+    - thứ 4
+    - Thứ tư
+    - Số bốn
+    - Thứ bốn
+    - Sushi thập cẩm
+    - Sushi
+    - sushi thập cẩm
+    - sushi
+- synonym: Súp bào ngư & cua măng tây
+  examples: |
+    - Số 12
+    - số 12
+    - thứ 12
+    - Thứ 12
+    - số mười hai
+    - thứ mười hai
+    - Số mười hai
+    - Thứ mười hai
+    - Súp bào ngư & cua măng tây
+    - Súp bào ngư & cua
+    - súp bào ngư & cua măng tây
+    - súp bào ngư & cua
+- synonym: Súp bào ngư phú quý
+  examples: |
+    - Số 14
+    - số 14
+    - thứ 14
+    - Thứ 14
+    - số mười bốn
+    - thứ mười bốn
+    - Số mười tư
+    - Thứ mười bốn
+    - Súp bào ngư phú quý
+    - súp bào ngư phú quý
+- synonym: Súp cua & bong bóng cá
+  examples: |
+    - Số 13
+    - số 13
+    - Thứ 13
+    - thứ 13
+    - Số mười ba
+    - số mười ba
+    - thứ mười ba
+    - Thứ mười ba
+    - Súp cua & bong bóng cá
+    - Súp cua & bong bóng
+    - Súp cua &
+    - Súp cua và bong bóng cá
+    - Súp cua và bong bóng
+    - Súp cua và
+    - súp cua & bong bóng cá
+    - súp cua & bong bóng
+    - súp cua &
+    - súp cua và bong bóng cá
+    - súp cua và bong bóng
+    - súp cua và
+- synonym: Súp cua bể hải sâm
+  examples: |
+    - Số 7
+    - số 7
+    - thứ 7
+    - Thứ 7
+    - số bảy
+    - Số bảy
+    - Thứ bảy
+    - Súp cua bể hải sâm
+    - Súp cua bể hải
+    - Súp cua bể
+    - súp cua bể hải sâm
+    - súp cua bể hải
+    - súp cua bể
+- synonym: thứ 7
+  examples: |
+    - thứ bảy
+- synonym: Súp hải sản & nấm linh chi
+  examples: |
+    - số 9
+    - Số 9
+    - Thứ 9
+    - thứ 9
+    - Số chín
+    - số chín
+    - thứ chín
+    - Thứ chín
+    - Súp hải sản & nấm linh chi
+    - Súp hải sản & nấm
+    - Súp hải sản và nấm linh chi
+    - Súp hải sản và nấm
+    - súp hải sản & nấm linh chi
+    - súp hải sản & nấm
+    - súp hải sản và nấm linh chi
+    - súp hải sản và nấm
+- synonym: Súp hải sản hoàng kim
+  examples: |
+    - Số 3
+    - số 3
+    - số ba
+    - Số ba
+    - Thứ 3
+    - thứ 3
+    - Thứ ba
+    - Súp hải sản hoàng kim
+    - súp hải sản hoàng kim
+- synonym: thứ 3
+  examples: |
+    - thứ ba
+- synonym: Súp nghêu kem sữa
+  examples: |
+    - Số 8
+    - số 8
+    - thứ 8
+    - Thứ 8
+    - Thứ tám
+    - thứ tám
+    - số tám
+    - Số tám
+    - Súp nghêu kem sữa
+    - Súp nghêu kem
+    - Súp nghêu
+    - súp nghêu kem sữa
+    - súp nghêu kem
+    - súp nghêu
+- synonym: Súp rau củ kiểu Ý
+  examples: |
+    - Số 6
+    - số 6
+    - Thứ 6
+    - thứ 6
+    - Thứ sáu
+    - số sáu
+    - Số sáu
+    - Súp rau củ kiểu Ý
+    - Súp rau củ
+    - súp rau củ kiểu Ý
+    - súp rau củ
+- synonym: thứ 6
+  examples: |
+    - thứ sáu
+- synonym: Sườn non chiên Trung Hoa
+  examples: |
+    - Số 34
+    - số 34
+    - số ba mươi tư
+    - Số ba mươi tư
+    - số ba mươi bốn
+    - Số ba mươi bốn
+    - Thứ 34
+    - thứ 34
+    - Thứ ba mươi tư
+    - thứ ba mươi tư
+    - Thứ ba mươi bốn
+    - thứ ba mươi bốn
+    - Sườn non chiên Trung Hoa
+    - Sườn non chiên
+    - Sườn non
+    - sườn non chiên Trung Hoa
+    - sườn non chiên
+    - sườn non
+- synonym: Thăn bò mỹ sốt tiêu
+  examples: |
+    - Số 29
+    - số 29
+    - số hai mươi chín
+    - Số hai mươi chín
+    - Thứ 29
+    - thứ 29
+    - Thứ hai mươi chín
+    - thứ hai mươi chín
+    - Thăn bò mỹ sốt tiêu
+    - Thăn bò mỹ sốt
+    - Thăn bò mỹ
+    - Thăn bò
+    - thăn bò mỹ sốt tiêu
+    - thăn bò mỹ sốt
+    - thăn bò mỹ
+    - thăn bò
+- synonym: Thạch xoài ăn kèm sữa dừa
+  examples: |
+    - Số 43
+    - số 43
+    - số bốn mươi ba
+    - Số bốn mươi ba
+    - Thứ 43
+    - thứ 43
+    - Thứ bốn mươi ba
+    - thứ bốn mươi ba
+    - Thạch xoài ăn kèm sữa dừa
+    - Thạch xoài ăn kèm
+    - Thạch xoài
+    - thạch xoài ăn kèm sữa dừa
+    - thạch xoài ăn kèm
+    - thạch xoài
+- synonym: Trái vải hạnh nhân lạnh
+  examples: |
+    - Số 42
+    - số 42
+    - số bốn mươi hai
+    - Số bốn mươi hai
+    - Thứ 42
+    - thứ 42
+    - Thứ bốn mươi hai
+    - thứ bốn mươi hai
+    - Trái vải hạnh nhân lạnh
+    - Trái vải hạnh nhân
+    - Trái vải
+    - trái vải hạnh nhân lạnh
+    - trái vải hạnh nhân
+    - trái vải
+- synonym: Tôm càng nướng wasabi
+  examples: |
+    - Số 30
+    - số 30
+    - số ba mươi
+    - Số ba mươi
+    - Thứ 30
+    - thứ 30
+    - Thứ ba mươi
+    - thứ ba mươi
+    - Tôm càng nướng wasabi
+    - Tôm càng nướng
+    - tôm càng nướng wasabi
+    - tôm càng nướng
+- synonym: Tôm càng rang muối Hồng Kông
+  examples: |
+    - Số 32
+    - số 32
+    - số ba mươi hai
+    - Số ba mươi hai
+    - Thứ 32
+    - thứ 32
+    - Thứ ba mươi hai
+    - thứ ba mươi hai
+    - Tôm càng rang muối Hồng Kông
+    - Tôm càng rang muối
+    - Tôm càng rang
+    - tôm càng rang muối Hồng Kông
+    - tôm càng rang muối
+    - tôm càng rang
+- synonym: Tôm hùm nửa con đút lò kiểu Pháp
+  examples: |
+    - Số 31
+    - số 31
+    - số ba mươi mốt
+    - Số ba mươi mốt
+    - số ba mươi một
+    - Số ba mươi một
+    - Thứ 31
+    - thứ 31
+    - Thứ ba mươi mốt
+    - thứ ba mươi mốt
+    - Thứ ba mươi một
+    - thứ ba mươi một
+    - Tôm hùm nửa con đút lò kiểu Pháp
+    - Tôm hùm nửa con đút lò
+    - Tôm hùm nửa con
+    - Tôm hùm
+    - tôm hùm nửa con đút lò kiểu Pháp
+    - tôm hùm nửa con đút lò
+    - tôm hùm nửa con
+    - tôm hùm
+- synonym: Tôm xào miến Hồng Kông
+  examples: |
+    - Số 33
+    - số 33
+    - số ba mươi ba
+    - Số ba mươi ba
+    - Thứ 33
+    - thứ 33
+    - Thứ ba mươi ba
+    - thứ ba mươi ba
+    - Tôm xào miến Hồng Kông
+    - Tôm xào miến
+    - Tôm xào
+    - tôm xào miến Hồng Kông
+    - tôm xào miến
+    - tôm xào
+- synonym: thứ 4
+  examples: |
+    - thứ tư
+- synonym: name_customer
+  examples: |
+    - name
+    - tên
+    - tteen
+    - teen
+    - tên của tôi
+    - teen của tôi
+    - tên tôi
+- synonym: phone_number
+  examples: |
+    - sdt
+    - số điện thoại
+    - soos điện thoại
+    - số dt
+- synonym: quantity_people
+  examples: |
+    - số chỗ ngồi
+    - số lượng người
+    - số lượng chỗ ngồi
+    - số lượng người tham gia
+    - số lượng người sử dụng
+- synonym: time_using
+  examples: |
+    - thời gian sử dụng
+    - thời gian
+    - thời gian sử dụng nhà hàng
+    - thời gian tham gia
+    - thời gian dự tiệc
+    - time using
+- synonym: name_food_change
+  examples: |
+    - tên món ăn
+    - tên món
+    - món ăn
+- synonym: quantity_food_change
+  examples: |
+    - số lượng món ăn
+    - số lượng món
+    - số lượng phần ăn
+    - số lượng của món ăn
+    - số lượng
+- synonym: delete_food
+  examples: |
+    - hủy món
+    - xóa món ăn
+    - hủy món ăn
+- regex: name_food_index
+  examples: |
+    - \d{1,2}
+- regex: phone_number
+  examples: |
+    - \d{9,13}
+- regex: quantity_food
+  examples: |
+    - \d{1,2}
+- regex: quantity_people
+  examples: |
+    - \d{1,9}
+- lookup: name_food
+  examples: |
+    - Baba hầm hải vị kèm bánh mì
+    - Bào ngư hầm nấm đông cô và cải thìa
+    - Bánh cam chiên với nước cốt dừa
+    - Bánh kem mềm chanh dây, trái cây, vụn hạt dẻ, xốt rượu Malibu
+    - Bánh mochi
+    - Bánh su với kem phomai hạt dẻ
+    - Bánh tiramisu
+    - Bánh xốp Macaron vị trà xanh
+    - Bò nấu cay kiểu Mã Lai kèm bánh mì
+    - Bò sốt vang Marzano
+    - Bò úc áp chảo
+    - Bồ câu tiềm thảo mộc hạt sen
+    - Chem chép New Zealand sốt tiêu
+    - Chân ngỗng sò điệp sốt bào ngư
+    - Chè hạnh nhân tàu hũ với long nhãn
+    - Càng cua bách hoa
+    - Cá hồi nướng mè
+    - Cừu hầm ngũ vị, cari hành tím, tỏi đen, nấm truffle và sốt tiêu Phú Quốc
+    - Ghẹ rang muối kiểu Âu
+    - Gà hấp đông cô sốt bào ngư
+    - Gỏi hải sâm kèm bánh phồng tôm
+    - Heo sữa quay kèm bánh mỳ
+    - Nem nướng cuốn cá hồi và trứng cá đen
+    - Salad cá ngừ
+    - Salad hoàng đế
+    - Salad trái cây tươi & vani
+    - Sushi thập cẩm
+    - Súp bào ngư & cua măng tây
+    - Súp bào ngư phú quý
+    - Súp cua & bong bóng cá
+    - Súp cua bể hải sâm
+    - Súp hải sản & nấm linh chi
+    - Súp hải sản hoàng kim
+    - Súp nghêu kem sữa
+    - Súp rau củ kiểu Ý
+    - Sườn non chiên Trung Hoa
+    - Thăn bò mỹ sốt tiêu
+    - Thạch xoài ăn kèm sữa dừa
+    - Trái vải hạnh nhân lạnh
+    - Tôm càng nướng wasabi
+    - Tôm càng rang muối Hồng Kông
+    - Tôm hùm nửa con đút lò kiểu Pháp
+    - Tôm xào miến Hồng Kông
+- lookup: day
+  examples: |
+    - mai
+    - ngày mai
+    - mốt
+    - ngày mốt
+    - hôm nay
+    - nay
+    - vài ngày nữa
+    - 5 ngày nữa
+    - 10 ngày nữa
+    - ít ngày nữa
+    - dăm ba hôm nữa
+    - ít hôm nữa
+    - ngày 1
+    - ngày 2
+    - ngày 3
+    - ngày 4
+    - ngày 5
+    - ngày 6
+    - ngày 7
+    - ngày 8
+    - ngày 9
+    - ngày 10
+    - ngày 11
+    - ngày 12
+    - ngày 13
+    - ngày 14
+    - ngày 15
+    - ngày 16
+    - ngày 17
+    - ngày 18
+    - ngày 19
+    - ngày 20
+    - ngày 21
+    - ngày 22
+    - ngày 23
+    - ngày 24
+    - ngày 25
+    - ngày 26
+    - ngày 27
+    - ngày 28
+    - ngày 29
+    - ngày 30
+    - ngày 31
+- lookup: time
+  examples: |
+    - 6 giờ sáng
+    - 7 giờ sáng
+    - 8 giờ sáng
+    - 9 giờ sáng
+    - 10 giờ sáng
+    - 11 giờ sáng
+    - 12 giờ sáng
+    - 10 giờ trưa
+    - 11 giờ trưa
+    - 12 giờ trưa
+    - 1 giờ chiều
+    - 2 giờ chiều
+    - 3 giờ chiều
+    - 4 giờ chiều
+    - 5 giờ chiều
+    - 6 giờ chiều
+    - 7 giờ tối
+    - 8 giờ tối
+    - 9 giờ tối
+    - 10 giờ tối
+    - 11 giờ tối
+    - 12 giờ khuya
+    - 1 giờ rưỡi
+    - 2 giờ rưỡi
+    - 3 giờ rưỡi
+    - 4 giờ rưỡi
+    - 5 giờ rưỡi
+    - 6 giờ rưỡi
+    - 7 giờ rưỡi
+    - 8 giờ rưỡi
+    - 9 giờ rưỡi
+    - 10 giờ rưỡi
+    - 11 giờ rưỡi
+    - 12 giờ rưỡi
+    - 1 giờ rưỡi chiều
+    - 2 giờ rưỡi chiều
+    - 3 giờ rưỡi chiều
+    - 4 giờ rưỡi chiều
+    - 5 giờ rưỡi chiều
+    - 6 giờ rưỡi tối
+    - 7 giờ rưỡi tối
+    - 8 giờ rưỡi tối
+    - 9 giờ rưỡi tối
+    - 10 giờ rưỡi tối
+    - 11 giờ rưỡi tối
+    - 5 giờ kém
+    - 6 giờ kém
+    - hơn 7 giờ
+    - 8 giờ
+    - gần 9 giờ
+    - 10 giờ kém 15
+    - 9 giờ kém 20
+    - 8 giờ thiếu 5
+    - 7 giờ thiếu 10
+- lookup: year
+  examples: |
+    - năm nay
+    - năm tới
+    - năm tới nữa
+    - năm sau
+    - năm sau nữa
+    - đầu năm nay
+    - đầu năm này
+    - đầu năm sau
+    - đầu năm sau nữa
+    - đầu năm tới
+    - đầu năm tới nữa
+    - đầu năm 2022
+    - đầu 2023
+    - cuối năm nay
+    - cuối năm này
+    - cuối năm sau
+    - cuối năm sau nữa
+    - cuối năm tới
+    - cuối năm tới nữa
+    - cuối năm 2023
+    - cuối 2024
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+- lookup: month
+  examples: |
+    - tháng tới
+    - tháng sau
+    - tháng sau nữa
+    - đầu tháng này
+    - đầu tháng tới
+    - đầu tháng tới nữa
+    - đầu tháng sau
+    - đầu tháng sau nữa
+    - cuối tháng này
+    - cuối tháng tới
+    - cuối tháng tới nữa
+    - cuối tháng sau
+    - cuối tháng sau nữa
+    - tháng 1
+    - tháng 2
+    - tháng 3
+    - tháng 4
+    - tháng 5
+    - tháng 6
+    - tháng 7
+    - tháng 8
+    - tháng 9
+    - tháng 10
+    - tháng 11
+    - tháng 12
+    - đầu tháng 1
+    - đầu tháng 2
+    - đầu tháng 3
+    - đầu tháng 4
+    - đầu tháng 5
+    - đầu tháng 6
+    - đầu tháng 7
+    - đầu tháng 8
+    - đầu tháng 9
+    - đầu tháng 10
+    - đầu tháng 11
+    - đầu tháng 12
+    - cuối tháng 1
+    - cuối tháng 2
+    - cuối tháng 3
+    - cuối tháng 4
+    - cuối tháng 5
+    - cuối tháng 6
+    - cuối tháng 7
+    - cuối tháng 8
+    - cuối tháng 9
+    - cuối tháng 10
+    - cuối tháng 11
+    - cuối tháng 12
+    - 1 tháng nữa
+    - 2 tháng nữa
+    - vài tháng nữa
+    - tháng nữa
+- lookup: week
+  examples: |
+    - cuối tuần sau
+    - cuối tuần sau nữa
+    - cuối tuần tới
+    - cuối tuần tới nữa
+    - đầu tuần sau
+    - đầu tuần sau nữa
+    - đầu tuần tới
+    - đầu tuần tới
+    - tuần sau
+    - tuần sau nữa
+    - tuần tới
+    - tuần tới nữa
+    - tuần nữa
+    - tuần nữa
+    - 1 tuần sau
+    - 2 tuần nữa
+    - 1 tuần tới
+    - 2 tuần nữa
+    - 3 tuần sau
+- lookup: weekday
+  examples: |
+    - thứ 2
+    - thứ 3
+    - thứ 4
+    - thứ 5
+    - thứ 6
+    - thứ 7
+    - chủ nhật
+- lookup: infor_change
+  examples: |
+    - name_customer
+    - phone_number
+    - time_using
+    - quantity_people
+- lookup: infor_food_change
+  examples: |
+    - name_food_change
+    - quantity_food_change
+    - delete_food
+- lookup: name_food_delete
+  examples: |
+    - Baba hầm hải vị kèm bánh mì
+    - Bào ngư hầm nấm đông cô và cải thìa
+    - Bánh cam chiên với nước cốt dừa
+    - Bánh kem mềm chanh dây, trái cây, vụn hạt dẻ, xốt rượu Malibu
+    - Bánh mochi
+    - Bánh su với kem phomai hạt dẻ
+    - Bánh tiramisu
+    - Bánh xốp Macaron vị trà xanh
+    - Bò nấu cay kiểu Mã Lai kèm bánh mì
+    - Bò sốt vang Marzano
+    - Bò úc áp chảo
+    - Bồ câu tiềm thảo mộc hạt sen
+    - Chem chép New Zealand sốt tiêu
+    - Chân ngỗng sò điệp sốt bào ngư
+    - Chè hạnh nhân tàu hũ với long nhãn
+    - Càng cua bách hoa
+    - Cá hồi nướng mè
+    - Cừu hầm ngũ vị, cari hành tím, tỏi đen, nấm truffle và sốt tiêu Phú Quốc
+    - Ghẹ rang muối kiểu Âu
+    - Gà hấp đông cô sốt bào ngư
+    - Gỏi hải sâm kèm bánh phồng tôm
+    - Heo sữa quay kèm bánh mỳ
+    - Nem nướng cuốn cá hồi và trứng cá đen
+    - Salad cá ngừ
+    - Salad hoàng đế
+    - Salad trái cây tươi & vani
+    - Sushi thập cẩm
+    - Súp bào ngư & cua măng tây
+    - Súp bào ngư phú quý
+    - Súp cua & bong bóng cá
+    - Súp cua bể hải sâm
+    - Súp hải sản & nấm linh chi
+    - Súp hải sản hoàng kim
+    - Súp nghêu kem sữa
+    - Súp rau củ kiểu Ý
+    - Sườn non chiên Trung Hoa
+    - Thăn bò mỹ sốt tiêu
+    - Thạch xoài ăn kèm sữa dừa
+    - Trái vải hạnh nhân lạnh
+    - Tôm càng nướng wasabi
+    - Tôm càng rang muối Hồng Kông
+    - Tôm hùm nửa con đút lò kiểu Pháp
+    - Tôm xào miến Hồng Kông

@@ -1,0 +1,26 @@
+[
+  {
+    "text": "Xác nhận đúng",
+    "intent": "confirm_information",
+    "intent_prediction": {
+      "name": "confirm_information_food",
+      "confidence": 0.741502046585083
+    }
+  },
+  {
+    "text": "đúng món ăn",
+    "intent": "confirm_information",
+    "intent_prediction": {
+      "name": "confirm_information_food",
+      "confidence": 0.6138216257095337
+    }
+  },
+  {
+    "text": "tên tôi là Anh",
+    "intent": "answer_name",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.492160439491272
+    }
+  }
+]

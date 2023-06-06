@@ -1,0 +1,31 @@
+version: "3.0"
+stories:
+- story: simple order food restaurant loop change list food (C:\dclv\rasa\rasa_1\rasa_dclv\tests\test_stories.yml)
+  steps:
+  - intent: change_food
+    entities:
+    - name_food: Chè hạnh nhân tàu hũ
+    - quantity_food: '18'
+  - slot_was_set:
+    - name_food: Chè hạnh nhân tàu hũ
+  - slot_was_set:
+    - quantity_food: '18'
+  - action: change_list_food
+  - action: action_listen  # predicted: give_anou_updated_list_food
+  - intent: change_food
+    entities:
+    - name_food_delete: Súp bào ngư
+  - slot_was_set:
+    - name_food_delete: Súp bào ngư
+  - action: change_list_food
+  - action: action_listen  # predicted: give_anou_updated_list_food
+  - intent: change_food
+    entities:
+    - name_food_delete: Bánh mochi
+    - name_food: Bánh su với kem phomai hạt dẻ
+  - slot_was_set:
+    - name_food_delete: Bánh mochi
+  - slot_was_set:
+    - name_food: Bánh su với kem phomai hạt dẻ
+  - action: change_list_food
+  - action: action_listen  # predicted: give_anou_updated_list_food

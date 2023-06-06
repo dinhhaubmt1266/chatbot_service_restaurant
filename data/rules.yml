@@ -1,0 +1,50 @@
+version: "3.0"
+
+rules:
+  - rule: Greet user
+    steps:
+      - intent: greet
+      - action: action_greet
+
+  - rule: ask_quantity_food
+    steps:
+      - intent: customer_order_food
+      - action: get_name_food
+      - action: question_quantity_food
+
+  - rule: get time
+    steps:
+      - intent: the_time_using_service
+      - action: get_time_using
+      - action: ask_name_customer
+
+  - rule: confirm and display_food
+    steps:
+      - intent: deny_add_order_food
+      - action: display_food
+
+  # - rule: update change food and display food
+  #   steps: 
+  #     - intent: change_food
+  #     - action: change_list_food
+  #     - action: give_anou_updated_list_food
+  #     - action: display_food
+    
+  # - rule: infor change and get infor change
+  #   steps:
+  #     - intent: infor_food_change
+  #     - action: get_infor_change_food
+  #     - action: question_food_change
+
+  # - rule: get change infor
+  #   steps: 
+  #     - intent: confirm_change_infor
+  #     - action: get_infor_change
+  #     - action: question_infor_change_of_customer
+
+  # - rule: infor change of customer and update infor
+  #   steps:
+  #     - intent: infor_change_of_customer
+  #     - action: get_infor_of_customer
+  #     - action: update_infor_of_customer
+  #     - action: display_information_customer

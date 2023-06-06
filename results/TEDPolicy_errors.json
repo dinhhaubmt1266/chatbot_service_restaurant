@@ -1,0 +1,556 @@
+[
+  {
+    "text": "đặt tiệc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "đặt tiệc",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho tôi món số 25",
+    "entities": [
+      {
+        "text": "Cho tôi món số 25",
+        "start": 12,
+        "end": 17,
+        "entity": "name_food",
+        "value": "số 25"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho tôi 5 phần",
+    "entities": [
+      {
+        "text": "Cho tôi 5 phần",
+        "start": 8,
+        "end": 9,
+        "entity": "quantity_food",
+        "value": "5"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho tôi món tôm càng rang",
+    "entities": [
+      {
+        "text": "Cho tôi món tôm càng rang",
+        "start": 12,
+        "end": 25,
+        "entity": "name_food",
+        "value": "tôm càng rang"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "5",
+    "entities": [
+      {
+        "text": "5",
+        "start": 0,
+        "end": 1,
+        "entity": "quantity_food",
+        "value": "5"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho tôi món thứ 32",
+    "entities": [
+      {
+        "text": "Cho tôi món thứ 32",
+        "start": 12,
+        "end": 18,
+        "entity": "name_food",
+        "value": "thứ 32"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho 5",
+    "entities": [
+      {
+        "text": "Cho 5",
+        "start": 4,
+        "end": 5,
+        "entity": "quantity_food",
+        "value": "5"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "5",
+    "entities": [
+      {
+        "text": "5",
+        "start": 0,
+        "end": 1,
+        "entity": "quantity_people",
+        "value": "5"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "9 giờ sáng ngày mai",
+    "entities": [
+      {
+        "text": "9 giờ sáng ngày mai",
+        "start": 0,
+        "end": 10,
+        "entity": "time",
+        "value": "9 giờ sáng"
+      },
+      {
+        "text": "9 giờ sáng ngày mai",
+        "start": 11,
+        "end": 19,
+        "entity": "day",
+        "value": "ngày mai"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi tên là An",
+    "entities": [
+      {
+        "start": 11,
+        "end": 13,
+        "value": "An",
+        "entity": "name_customer"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "012345688789",
+    "entities": [
+      {
+        "text": "012345688789",
+        "start": 0,
+        "end": 12,
+        "entity": "phone_number",
+        "value": "012345688789"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "đặt tiệc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "đặt tiệc",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho tôi món bánh mì",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "value": "bánh mì",
+        "entity": "name_food"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho tôi món tôm càng rang",
+    "entities": [
+      {
+        "text": "Cho tôi món tôm càng rang",
+        "start": 12,
+        "end": 25,
+        "entity": "name_food",
+        "value": "tôm càng rang"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn thay đổi tên món ăn",
+    "entities": [
+      {
+        "text": "tôi muốn thay đổi tên món ăn",
+        "start": 18,
+        "end": 28,
+        "entity": "infor_food_change",
+        "value": "tên món ăn"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn thay đổi món Bánh mochi thành món Bánh su với kem phomai hạt dẻ",
+    "entities": [
+      {
+        "text": "tôi muốn thay đổi món Bánh mochi thành món Bánh su với kem phomai hạt dẻ",
+        "start": 22,
+        "end": 32,
+        "entity": "name_food_delete",
+        "value": "Bánh mochi"
+      },
+      {
+        "text": "tôi muốn thay đổi món Bánh mochi thành món Bánh su với kem phomai hạt dẻ",
+        "start": 43,
+        "end": 72,
+        "entity": "name_food",
+        "value": "Bánh su với kem phomai hạt dẻ"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "chị muốn giảm số lượng phần ăn",
+    "entities": [
+      {
+        "text": "chị muốn giảm số lượng phần ăn",
+        "start": 14,
+        "end": 30,
+        "entity": "infor_food_change",
+        "value": "số lượng phần ăn"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "giảm số lượng món Chè hạnh nhân tàu hũ thành 18 phần",
+    "entities": [
+      {
+        "text": "giảm số lượng món Chè hạnh nhân tàu hũ thành 18 phần",
+        "start": 18,
+        "end": 38,
+        "entity": "name_food",
+        "value": "Chè hạnh nhân tàu hũ"
+      },
+      {
+        "text": "giảm số lượng món Chè hạnh nhân tàu hũ thành 18 phần",
+        "start": 45,
+        "end": 47,
+        "entity": "quantity_food",
+        "value": "18"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn hủy món",
+    "entities": [
+      {
+        "text": "tôi muốn hủy món",
+        "start": 9,
+        "end": 16,
+        "entity": "infor_food_change",
+        "value": "hủy món"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hủy món Súp bào ngư giúp tôi nhé",
+    "entities": [
+      {
+        "start": 8,
+        "end": 19,
+        "value": "Súp bào ngư",
+        "entity": "name_food_delete"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn thay đổi tên món ăn",
+    "entities": [
+      {
+        "text": "tôi muốn thay đổi tên món ăn",
+        "start": 18,
+        "end": 28,
+        "entity": "infor_food_change",
+        "value": "tên món ăn"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn thay đổi món Bánh mochi thành món Bánh su với kem phomai hạt dẻ",
+    "entities": [
+      {
+        "text": "tôi muốn thay đổi món Bánh mochi thành món Bánh su với kem phomai hạt dẻ",
+        "start": 22,
+        "end": 32,
+        "entity": "name_food_delete",
+        "value": "Bánh mochi"
+      },
+      {
+        "text": "tôi muốn thay đổi món Bánh mochi thành món Bánh su với kem phomai hạt dẻ",
+        "start": 43,
+        "end": 72,
+        "entity": "name_food",
+        "value": "Bánh su với kem phomai hạt dẻ"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "chị muốn giảm số lượng phần ăn",
+    "entities": [
+      {
+        "text": "chị muốn giảm số lượng phần ăn",
+        "start": 14,
+        "end": 30,
+        "entity": "infor_food_change",
+        "value": "số lượng phần ăn"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "giảm số lượng món Chè hạnh nhân tàu hũ thành 18 phần",
+    "entities": [
+      {
+        "text": "giảm số lượng món Chè hạnh nhân tàu hũ thành 18 phần",
+        "start": 18,
+        "end": 38,
+        "entity": "name_food",
+        "value": "Chè hạnh nhân tàu hũ"
+      },
+      {
+        "text": "giảm số lượng món Chè hạnh nhân tàu hũ thành 18 phần",
+        "start": 45,
+        "end": 47,
+        "entity": "quantity_food",
+        "value": "18"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn hủy món",
+    "entities": [
+      {
+        "text": "tôi muốn hủy món",
+        "start": 9,
+        "end": 16,
+        "entity": "infor_food_change",
+        "value": "hủy món"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hủy món Súp bào ngư giúp tôi nhé",
+    "entities": [
+      {
+        "start": 8,
+        "end": 19,
+        "value": "Súp bào ngư",
+        "entity": "name_food_delete"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "giảm số lượng món Chè hạnh nhân tàu hũ thành 18 phần",
+    "entities": [
+      {
+        "text": "giảm số lượng món Chè hạnh nhân tàu hũ thành 18 phần",
+        "start": 18,
+        "end": 38,
+        "entity": "name_food",
+        "value": "Chè hạnh nhân tàu hũ"
+      },
+      {
+        "text": "giảm số lượng món Chè hạnh nhân tàu hũ thành 18 phần",
+        "start": 45,
+        "end": 47,
+        "entity": "quantity_food",
+        "value": "18"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hủy món Súp bào ngư giúp tôi nhé",
+    "entities": [
+      {
+        "start": 8,
+        "end": 19,
+        "value": "Súp bào ngư",
+        "entity": "name_food_delete"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn thay đổi món Bánh mochi thành món Bánh su với kem phomai hạt dẻ",
+    "entities": [
+      {
+        "text": "tôi muốn thay đổi món Bánh mochi thành món Bánh su với kem phomai hạt dẻ",
+        "start": 22,
+        "end": 32,
+        "entity": "name_food_delete",
+        "value": "Bánh mochi"
+      },
+      {
+        "text": "tôi muốn thay đổi món Bánh mochi thành món Bánh su với kem phomai hạt dẻ",
+        "start": 43,
+        "end": 72,
+        "entity": "name_food",
+        "value": "Bánh su với kem phomai hạt dẻ"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "012345688789",
+    "entities": [
+      {
+        "text": "012345688789",
+        "start": 0,
+        "end": 12,
+        "entity": "phone_number",
+        "value": "012345688789"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "điều chỉ lại tên của tôi",
+    "entities": [
+      {
+        "text": "điều chỉ lại tên của tôi",
+        "start": 13,
+        "end": 16,
+        "entity": "infor_change",
+        "value": "tên"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tên anh là Tùng",
+    "entities": [
+      {
+        "text": "tên anh là Tùng",
+        "start": 11,
+        "end": 15,
+        "entity": "name_customer",
+        "value": "Tùng"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "thay đổi số lượng chỗ ngồi",
+    "entities": [
+      {
+        "text": "thay đổi số lượng chỗ ngồi",
+        "start": 9,
+        "end": 26,
+        "entity": "infor_change",
+        "value": "số lượng chỗ ngồi"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "đổi lại số chỗ ngồi 9",
+    "entities": [
+      {
+        "text": "đổi lại số chỗ ngồi 9",
+        "start": 20,
+        "end": 21,
+        "entity": "quantity_people",
+        "value": "9"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "012345688789",
+    "entities": [
+      {
+        "text": "012345688789",
+        "start": 0,
+        "end": 12,
+        "entity": "phone_number",
+        "value": "012345688789"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn thay đổi phone_number",
+    "entities": [
+      {
+        "start": 18,
+        "end": 30,
+        "value": "phone_number",
+        "entity": "infor_change"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "số tôi là 013644897",
+    "entities": [
+      {
+        "text": "số tôi là 013644897",
+        "start": 10,
+        "end": 19,
+        "entity": "phone_number",
+        "value": "013644897"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn thay đổi time_using",
+    "entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "time_using",
+        "entity": "infor_change"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "thời gian chị muốn sử dụng 11 giờ trưa mai",
+    "entities": [
+      {
+        "text": "thời gian chị muốn sử dụng 11 giờ trưa mai",
+        "start": 27,
+        "end": 38,
+        "entity": "time",
+        "value": "11 giờ trưa"
+      },
+      {
+        "text": "thời gian chị muốn sử dụng 11 giờ trưa mai",
+        "start": 39,
+        "end": 42,
+        "entity": "day",
+        "value": "mai"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

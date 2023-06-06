@@ -1,0 +1,3045 @@
+[
+  {
+    "text": "1",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "entity": "quantity_food"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "year",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.4718053340911865,
+        "value": "1",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "15",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "15",
+        "entity": "quantity_food"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "year",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.4718053340911865,
+        "value": "15",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 0,
+        "end": 2,
+        "value": "15",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 0,
+        "end": 2,
+        "value": "15",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 0,
+        "end": 2,
+        "value": "15",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 0,
+        "end": 2,
+        "value": "15",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "1",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "entity": "quantity_people"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "year",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.4718053340911865,
+        "value": "1",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Tôi cần 1",
+    "entities": [
+      {
+        "start": 8,
+        "end": 9,
+        "value": "1",
+        "entity": "quantity_people"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "confidence_entity": 0.8086332082748413,
+        "value": "1",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 8,
+        "end": 9,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 8,
+        "end": 9,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "7 giờ tối ngày hôm nay",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "7 giờ tối",
+        "entity": "time"
+      },
+      {
+        "start": 15,
+        "end": 22,
+        "value": "hôm nay",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.9516915678977966,
+        "value": "7 giờ tối",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.995404839515686,
+        "value": "ngày",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.9941494464874268,
+        "value": "hôm nay",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 0,
+        "end": 1,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 0,
+        "end": 1,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 0,
+        "end": 1,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 0,
+        "end": 1,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 15,
+        "end": 22,
+        "value": "hôm nay",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 5,
+        "value": "7 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 6,
+        "end": 9,
+        "value": "tối",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 15,
+        "end": 22,
+        "value": "hôm nay",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 5,
+        "value": "7 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 6,
+        "end": 9,
+        "value": "tối",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn đặt tiệc lúc 7 giờ tối hôm nay",
+    "entities": [
+      {
+        "start": 22,
+        "end": 31,
+        "value": "7 giờ tối",
+        "entity": "time"
+      },
+      {
+        "start": 32,
+        "end": 39,
+        "value": "hôm nay",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.9928644895553589,
+        "value": "tiệc",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 31,
+        "confidence_entity": 0.9726722836494446,
+        "value": "7 giờ tối",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 32,
+        "end": 39,
+        "confidence_entity": 0.66,
+        "value": "hôm nay",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 22,
+        "end": 23,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 22,
+        "end": 23,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 22,
+        "end": 23,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 22,
+        "end": 23,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 32,
+        "end": 39,
+        "value": "hôm nay",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 27,
+        "value": "7 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 28,
+        "end": 31,
+        "value": "tối",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 32,
+        "end": 39,
+        "value": "hôm nay",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 27,
+        "value": "7 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 28,
+        "end": 31,
+        "value": "tối",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "tầm 3 giờ chiều mai",
+    "entities": [
+      {
+        "start": 4,
+        "end": 15,
+        "value": "3 giờ chiều",
+        "entity": "time"
+      },
+      {
+        "start": 16,
+        "end": 19,
+        "value": "mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.8770853281021118,
+        "value": "tầm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 4,
+        "end": 15,
+        "confidence_entity": 0.564777672290802,
+        "value": "3 giờ chiều",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 16,
+        "end": 19,
+        "confidence_entity": 0.6953479051589966,
+        "value": "mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 4,
+        "end": 5,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 4,
+        "end": 5,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 4,
+        "end": 5,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 4,
+        "end": 5,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 16,
+        "end": 19,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 4,
+        "end": 9,
+        "value": "3 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 10,
+        "end": 15,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 16,
+        "end": 19,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 4,
+        "end": 9,
+        "value": "3 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 10,
+        "end": 15,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "cho tôi 7 giờ tối mai",
+    "entities": [
+      {
+        "start": 8,
+        "end": 17,
+        "value": "7 giờ tối",
+        "entity": "time"
+      },
+      {
+        "start": 18,
+        "end": 21,
+        "value": "mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 21,
+        "confidence_entity": 0.43875473737716675,
+        "value": "7 giờ tối mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 8,
+        "end": 9,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 8,
+        "end": 9,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 18,
+        "end": 21,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 13,
+        "value": "7 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 14,
+        "end": 17,
+        "value": "tối",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 18,
+        "end": 21,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 13,
+        "value": "7 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 14,
+        "end": 17,
+        "value": "tối",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn 13 giờ mai",
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "value": "13 giờ",
+        "entity": "time"
+      },
+      {
+        "start": 16,
+        "end": 19,
+        "value": "mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 9,
+        "end": 19,
+        "confidence_entity": 0.6714457869529724,
+        "value": "13 giờ mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 9,
+        "end": 11,
+        "value": "13",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 9,
+        "end": 11,
+        "value": "13",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 9,
+        "end": 11,
+        "value": "13",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 9,
+        "end": 11,
+        "value": "13",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 16,
+        "end": 19,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 16,
+        "end": 19,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "khoảng 9 giờ sáng mai",
+    "entities": [
+      {
+        "start": 7,
+        "end": 17,
+        "value": "9 giờ sáng",
+        "entity": "time"
+      },
+      {
+        "start": 18,
+        "end": 21,
+        "value": "mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9642115831375122,
+        "value": "khoảng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 7,
+        "end": 17,
+        "confidence_entity": 0.9474515318870544,
+        "value": "9 giờ sáng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 18,
+        "end": 21,
+        "confidence_entity": 0.4638766944408417,
+        "value": "mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 7,
+        "end": 8,
+        "value": "9",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 7,
+        "end": 8,
+        "value": "9",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 7,
+        "end": 8,
+        "value": "9",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 7,
+        "end": 8,
+        "value": "9",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 18,
+        "end": 21,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 7,
+        "end": 12,
+        "value": "9 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 18,
+        "end": 21,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 7,
+        "end": 12,
+        "value": "9 giờ",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "cỡ 2 giờ chiều mai",
+    "entities": [
+      {
+        "start": 3,
+        "end": 14,
+        "value": "2 giờ chiều",
+        "entity": "time"
+      },
+      {
+        "start": 15,
+        "end": 18,
+        "value": "mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.9849855899810791,
+        "value": "cỡ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 3,
+        "end": 14,
+        "confidence_entity": 0.5472084879875183,
+        "value": "2 giờ chiều",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.7295975685119629,
+        "value": "mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 3,
+        "end": 4,
+        "value": "2",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 3,
+        "end": 4,
+        "value": "2",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 3,
+        "end": 4,
+        "value": "2",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 3,
+        "end": 4,
+        "value": "2",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 15,
+        "end": 18,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 3,
+        "end": 8,
+        "value": "2 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 9,
+        "end": 14,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 15,
+        "end": 18,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 3,
+        "end": 8,
+        "value": "2 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 9,
+        "end": 14,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "cho anh đặt tiệc lúc 3 giờ chiều mai",
+    "entities": [
+      {
+        "start": 21,
+        "end": 32,
+        "value": "3 giờ chiều",
+        "entity": "time"
+      },
+      {
+        "start": 33,
+        "end": 36,
+        "value": "mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.9956815242767334,
+        "value": "tiệc",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 21,
+        "end": 36,
+        "confidence_entity": 0.7773835062980652,
+        "value": "3 giờ chiều mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 21,
+        "end": 22,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 21,
+        "end": 22,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 21,
+        "end": 22,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 21,
+        "end": 22,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 33,
+        "end": 36,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 21,
+        "end": 26,
+        "value": "3 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 27,
+        "end": 32,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 33,
+        "end": 36,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 21,
+        "end": 26,
+        "value": "3 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 27,
+        "end": 32,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "cho anh đặt lúc 9 giờ sáng mai",
+    "entities": [
+      {
+        "start": 16,
+        "end": 26,
+        "value": "9 giờ sáng",
+        "entity": "time"
+      },
+      {
+        "start": 27,
+        "end": 30,
+        "value": "mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 16,
+        "end": 30,
+        "confidence_entity": 0.5684449672698975,
+        "value": "9 giờ sáng mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 16,
+        "end": 17,
+        "value": "9",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 16,
+        "end": 17,
+        "value": "9",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 16,
+        "end": 17,
+        "value": "9",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 16,
+        "end": 17,
+        "value": "9",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 27,
+        "end": 30,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 16,
+        "end": 21,
+        "value": "9 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 27,
+        "end": 30,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 16,
+        "end": 21,
+        "value": "9 giờ",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "chị muốn khoảng 4 giờ chiều mai",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "value": "4 giờ chiều",
+        "entity": "time"
+      },
+      {
+        "start": 28,
+        "end": 31,
+        "value": "mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 16,
+        "end": 31,
+        "confidence_entity": 0.7726500034332275,
+        "value": "4 giờ chiều mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 16,
+        "end": 17,
+        "value": "4",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 16,
+        "end": 17,
+        "value": "4",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 16,
+        "end": 17,
+        "value": "4",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 16,
+        "end": 17,
+        "value": "4",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 28,
+        "end": 31,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 16,
+        "end": 21,
+        "value": "4 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 27,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 28,
+        "end": 31,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 16,
+        "end": 21,
+        "value": "4 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 27,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "cho chị 5 giờ mai nhé",
+    "entities": [
+      {
+        "start": 8,
+        "end": 13,
+        "value": "5 giờ",
+        "entity": "time"
+      },
+      {
+        "start": 14,
+        "end": 17,
+        "value": "mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 17,
+        "confidence_entity": 0.79,
+        "value": "5 giờ mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 8,
+        "end": 9,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 8,
+        "end": 9,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 14,
+        "end": 17,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 13,
+        "value": "5 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 14,
+        "end": 17,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 13,
+        "value": "5 giờ",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "cho anh 3 giờ chiều mai ạ",
+    "entities": [
+      {
+        "start": 8,
+        "end": 19,
+        "value": "3 giờ chiều",
+        "entity": "time"
+      },
+      {
+        "start": 20,
+        "end": 23,
+        "value": "mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 19,
+        "confidence_entity": 0.5123741030693054,
+        "value": "3 giờ chiều",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name_food",
+        "start": 20,
+        "end": 23,
+        "confidence_entity": 0.47727611660957336,
+        "value": "mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 8,
+        "end": 9,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 8,
+        "end": 9,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 20,
+        "end": 23,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 13,
+        "value": "3 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 14,
+        "end": 19,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 20,
+        "end": 23,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 13,
+        "value": "3 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 14,
+        "end": 19,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "anh đặt 3 giờ chiều mai nhé",
+    "entities": [
+      {
+        "start": 8,
+        "end": 19,
+        "value": "3 giờ chiều",
+        "entity": "time"
+      },
+      {
+        "start": 20,
+        "end": 23,
+        "value": "mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 23,
+        "confidence_entity": 0.26470747590065,
+        "value": "3 giờ chiều mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 8,
+        "end": 9,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 8,
+        "end": 9,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 20,
+        "end": 23,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 13,
+        "value": "3 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 14,
+        "end": 19,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 20,
+        "end": 23,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 13,
+        "value": "3 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 14,
+        "end": 19,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "1 giờ chiều ngày hôm nay",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "1 giờ chiều",
+        "entity": "time"
+      },
+      {
+        "start": 17,
+        "end": 24,
+        "value": "hôm nay",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.9949047565460205,
+        "value": "1 giờ chiều",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.9955822825431824,
+        "value": "ngày",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 17,
+        "end": 24,
+        "confidence_entity": 0.9953898191452026,
+        "value": "hôm nay",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 17,
+        "end": 24,
+        "value": "hôm nay",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 5,
+        "value": "1 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 6,
+        "end": 11,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 17,
+        "end": 24,
+        "value": "hôm nay",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 5,
+        "value": "1 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 6,
+        "end": 11,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn đặt tiệc lúc 7 giờ tối vài ngày nữa",
+    "entities": [
+      {
+        "start": 22,
+        "end": 31,
+        "value": "7 giờ tối",
+        "entity": "time"
+      },
+      {
+        "start": 32,
+        "end": 44,
+        "value": "vài ngày nữa",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.9922903180122375,
+        "value": "tiệc",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 31,
+        "confidence_entity": 0.9362062215805054,
+        "value": "7 giờ tối",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 32,
+        "end": 44,
+        "confidence_entity": 0.42000171542167664,
+        "value": "vài ngày nữa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 22,
+        "end": 23,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 22,
+        "end": 23,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 22,
+        "end": 23,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 22,
+        "end": 23,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 32,
+        "end": 44,
+        "value": "vài ngày nữa",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 27,
+        "value": "7 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 28,
+        "end": 31,
+        "value": "tối",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 32,
+        "end": 44,
+        "value": "vài ngày nữa",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 27,
+        "value": "7 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 28,
+        "end": 31,
+        "value": "tối",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "tầm 4 giờ chiều vài ngày nữa",
+    "entities": [
+      {
+        "start": 4,
+        "end": 15,
+        "value": "4 giờ chiều",
+        "entity": "time"
+      },
+      {
+        "start": 16,
+        "end": 28,
+        "value": "vài ngày nữa",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9698601961135864,
+        "value": "tầm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 4,
+        "end": 15,
+        "confidence_entity": 0.5061110854148865,
+        "value": "4 giờ chiều",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 16,
+        "end": 28,
+        "confidence_entity": 0.5332579612731934,
+        "value": "vài ngày nữa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 4,
+        "end": 5,
+        "value": "4",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 4,
+        "end": 5,
+        "value": "4",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 4,
+        "end": 5,
+        "value": "4",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 4,
+        "end": 5,
+        "value": "4",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 16,
+        "end": 28,
+        "value": "vài ngày nữa",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 4,
+        "end": 9,
+        "value": "4 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 10,
+        "end": 15,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 16,
+        "end": 28,
+        "value": "vài ngày nữa",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 4,
+        "end": 9,
+        "value": "4 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 10,
+        "end": 15,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "cho tôi 1 giờ rưỡi chiều mai",
+    "entities": [
+      {
+        "start": 8,
+        "end": 24,
+        "value": "1 giờ rưỡi chiều",
+        "entity": "time"
+      },
+      {
+        "start": 25,
+        "end": 28,
+        "value": "mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 28,
+        "confidence_entity": 0.44250938296318054,
+        "value": "1 giờ rưỡi chiều mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 8,
+        "end": 9,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 8,
+        "end": 9,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 25,
+        "end": 28,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 13,
+        "value": "1 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 19,
+        "end": 24,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 25,
+        "end": 28,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 13,
+        "value": "1 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 19,
+        "end": 24,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "khoảng 6 giờ kém mai",
+    "entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "value": "6 giờ kém",
+        "entity": "time"
+      },
+      {
+        "start": 17,
+        "end": 20,
+        "value": "mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9640343189239502,
+        "value": "khoảng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.9374447464942932,
+        "value": "6 giờ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 13,
+        "end": 16,
+        "confidence_entity": 0.41930922865867615,
+        "value": "kém",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 17,
+        "end": 20,
+        "confidence_entity": 0.4962294399738312,
+        "value": "mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 7,
+        "end": 8,
+        "value": "6",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 7,
+        "end": 8,
+        "value": "6",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 7,
+        "end": 8,
+        "value": "6",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 7,
+        "end": 8,
+        "value": "6",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 17,
+        "end": 20,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 7,
+        "end": 12,
+        "value": "6 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 17,
+        "end": 20,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 7,
+        "end": 12,
+        "value": "6 giờ",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "cỡ 8 giờ thiếu 5 ngày mốt",
+    "entities": [
+      {
+        "start": 3,
+        "end": 16,
+        "value": "8 giờ thiếu 5",
+        "entity": "time"
+      },
+      {
+        "start": 17,
+        "end": 25,
+        "value": "ngày mốt",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.7580642104148865,
+        "value": "cỡ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 3,
+        "end": 8,
+        "confidence_entity": 0.650922954082489,
+        "value": "8 giờ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name_customer",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.64,
+        "value": "thiếu 5",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.9800007939338684,
+        "value": "ngày mốt",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 3,
+        "end": 4,
+        "value": "8",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 15,
+        "end": 16,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 3,
+        "end": 4,
+        "value": "8",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 15,
+        "end": 16,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 3,
+        "end": 4,
+        "value": "8",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 15,
+        "end": 16,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 3,
+        "end": 4,
+        "value": "8",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 15,
+        "end": 16,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 17,
+        "end": 25,
+        "value": "ngày mốt",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 3,
+        "end": 8,
+        "value": "8 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 17,
+        "end": 25,
+        "value": "ngày mốt",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 3,
+        "end": 8,
+        "value": "8 giờ",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "cho anh đặt lúc 3 giờ chiều mai",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "value": "3 giờ chiều",
+        "entity": "time"
+      },
+      {
+        "start": 28,
+        "end": 31,
+        "value": "mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 16,
+        "end": 31,
+        "confidence_entity": 0.7890165448188782,
+        "value": "3 giờ chiều mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 16,
+        "end": 17,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 16,
+        "end": 17,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 16,
+        "end": 17,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 16,
+        "end": 17,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 28,
+        "end": 31,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 16,
+        "end": 21,
+        "value": "3 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 27,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 28,
+        "end": 31,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 16,
+        "end": 21,
+        "value": "3 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 27,
+        "value": "chiều",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "cho chị 5 giờ kém mai nhé",
+    "entities": [
+      {
+        "start": 8,
+        "end": 17,
+        "value": "5 giờ kém",
+        "entity": "time"
+      },
+      {
+        "start": 18,
+        "end": 21,
+        "value": "mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 21,
+        "confidence_entity": 0.66,
+        "value": "5 giờ kém mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 8,
+        "end": 9,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 8,
+        "end": 9,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 18,
+        "end": 21,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 13,
+        "value": "5 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 18,
+        "end": 21,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 13,
+        "value": "5 giờ",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "cho anh 7 giờ thiếu 10](time) ngày mốt ạ",
+    "entities": [
+      {
+        "start": 30,
+        "end": 38,
+        "value": "ngày mốt",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 9,
+        "confidence_entity": 0.9016956686973572,
+        "value": "7",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name_customer",
+        "start": 14,
+        "end": 28,
+        "confidence_entity": 0.66,
+        "value": "thiếu 10](time",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 30,
+        "end": 38,
+        "confidence_entity": 0.66,
+        "value": "ngày mốt",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 20,
+        "end": 22,
+        "value": "10",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 20,
+        "end": 22,
+        "value": "10",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 8,
+        "end": 9,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 20,
+        "end": 22,
+        "value": "10",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 8,
+        "end": 9,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 20,
+        "end": 22,
+        "value": "10",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 30,
+        "end": 38,
+        "value": "ngày mốt",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 13,
+        "value": "7 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 30,
+        "end": 38,
+        "value": "ngày mốt",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 13,
+        "value": "7 giờ",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "anh muốn tầm 8 giờ thiếu 5 ngày mốt nha",
+    "entities": [
+      {
+        "start": 13,
+        "end": 26,
+        "value": "8 giờ thiếu 5",
+        "entity": "time"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "value": "ngày mốt",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name_food",
+        "start": 9,
+        "end": 12,
+        "confidence_entity": 0.2821943759918213,
+        "value": "tầm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.47091254591941833,
+        "value": "8 giờ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name_customer",
+        "start": 19,
+        "end": 24,
+        "confidence_entity": 0.9019144773483276,
+        "value": "thiếu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 25,
+        "end": 26,
+        "confidence_entity": 0.489899218082428,
+        "value": "5",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name_food",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.66,
+        "value": "ngày mốt",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 13,
+        "end": 14,
+        "value": "8",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 25,
+        "end": 26,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 13,
+        "end": 14,
+        "value": "8",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 25,
+        "end": 26,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 13,
+        "end": 14,
+        "value": "8",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 25,
+        "end": 26,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 13,
+        "end": 14,
+        "value": "8",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 25,
+        "end": 26,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 27,
+        "end": 35,
+        "value": "ngày mốt",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 13,
+        "end": 18,
+        "value": "8 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 27,
+        "end": 35,
+        "value": "ngày mốt",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 13,
+        "end": 18,
+        "value": "8 giờ",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "khoa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "khoa",
+        "entity": "name_customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.3352164030075073,
+        "value": "khoa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tên [Anh]",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "name_customer",
+        "start": 5,
+        "end": 8,
+        "confidence_entity": 0.9980666041374207,
+        "value": "Anh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chị muốn sử dụng sớm hơn 8 giờ tối nay",
+    "entities": [
+      {
+        "start": 25,
+        "end": 34,
+        "value": "8 giờ tối",
+        "entity": "time"
+      },
+      {
+        "start": 35,
+        "end": 38,
+        "value": "nay",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 25,
+        "end": 38,
+        "confidence_entity": 0.9897067546844482,
+        "value": "8 giờ tối nay",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 25,
+        "end": 26,
+        "value": "8",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 25,
+        "end": 26,
+        "value": "8",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 25,
+        "end": 26,
+        "value": "8",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 25,
+        "end": 26,
+        "value": "8",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 35,
+        "end": 38,
+        "value": "nay",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 25,
+        "end": 30,
+        "value": "8 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 31,
+        "end": 34,
+        "value": "tối",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 35,
+        "end": 38,
+        "value": "nay",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 25,
+        "end": 30,
+        "value": "8 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 31,
+        "end": 34,
+        "value": "tối",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "thời gian chị muốn sử dụng 11 giờ trưa mai",
+    "entities": [
+      {
+        "start": 27,
+        "end": 38,
+        "value": "11 giờ trưa",
+        "entity": "time"
+      },
+      {
+        "start": 39,
+        "end": 42,
+        "value": "mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 27,
+        "end": 42,
+        "confidence_entity": 0.969228208065033,
+        "value": "11 giờ trưa mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 27,
+        "end": 29,
+        "value": "11",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 27,
+        "end": 29,
+        "value": "11",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 27,
+        "end": 29,
+        "value": "11",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 27,
+        "end": 29,
+        "value": "11",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 39,
+        "end": 42,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 27,
+        "end": 33,
+        "value": "11 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 34,
+        "end": 38,
+        "value": "trưa",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 39,
+        "end": 42,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 27,
+        "end": 33,
+        "value": "11 giờ",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 34,
+        "end": 38,
+        "value": "trưa",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "sang ngày mai",
+    "entities": [
+      {
+        "start": 10,
+        "end": 13,
+        "value": "mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.5290371179580688,
+        "value": "sang",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 5,
+        "end": 13,
+        "confidence_entity": 0.9969612956047058,
+        "value": "ngày mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 5,
+        "end": 13,
+        "value": "ngày mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 5,
+        "end": 13,
+        "value": "ngày mai",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "đổi sang mai",
+    "entities": [
+      {
+        "start": 9,
+        "end": 12,
+        "value": "mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.5110560059547424,
+        "value": "sang mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 9,
+        "end": 12,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 9,
+        "end": 12,
+        "value": "mai",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi hủy hủy món ăn",
+    "entities": [
+      {
+        "start": 12,
+        "end": 22,
+        "value": "hủy món ăn",
+        "entity": "infor_food_change"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "infor_food_change",
+        "start": 8,
+        "end": 11,
+        "confidence_entity": 0.8774136304855347,
+        "value": "hủy",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "infor_food_change",
+        "start": 12,
+        "end": 22,
+        "confidence_entity": 0.9385160207748413,
+        "value": "delete_food",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "chị muốn tăng số lượng món thứ 10 với số lượng 9 phần",
+    "entities": [
+      {
+        "start": 27,
+        "end": 33,
+        "value": "thứ 10",
+        "entity": "name_food"
+      },
+      {
+        "start": 47,
+        "end": 48,
+        "value": "9",
+        "entity": "quantity_food"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name_food",
+        "start": 27,
+        "end": 30,
+        "confidence_entity": 0.9869462847709656,
+        "value": "thứ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 31,
+        "end": 33,
+        "confidence_entity": 0.742243766784668,
+        "value": "10",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 47,
+        "end": 48,
+        "confidence_entity": 0.9841593503952026,
+        "value": "9",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 31,
+        "end": 33,
+        "value": "10",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 47,
+        "end": 48,
+        "value": "9",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 31,
+        "end": 33,
+        "value": "10",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 47,
+        "end": 48,
+        "value": "9",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 31,
+        "end": 33,
+        "value": "10",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 47,
+        "end": 48,
+        "value": "9",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 31,
+        "end": 33,
+        "value": "10",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 47,
+        "end": 48,
+        "value": "9",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  }
+]

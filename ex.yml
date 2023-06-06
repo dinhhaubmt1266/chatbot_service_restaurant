@@ -1,0 +1,39 @@
+- story: simple order food restaurant loop order name food
+    steps: 
+      - intent: greet
+      - action: action_greet
+      - intent: answer_service
+      - action: ask_name_food
+      - intent: customer_order_food
+      - action: get_name_food
+      - action: question_quantity_food
+      - intent: customer_order_food
+      - action: get_name_food
+      - action: question_quantity_food
+  - story: action change list food loop change
+    steps: 
+      - intent: deny_add_order_food
+      - action: display_food
+      - intent: infor_food_customer_change
+      - action: get_infor_change_food
+      - action: question_food_change
+      - intent: change_food
+      - action: change_list_food
+      - action: give_anou_updated_list_food
+      - action: display_food
+      - intent: infor_food_customer_change
+      - action: get_infor_change_food
+      - action: question_food_change
+      - intent: change_food
+      - action: change_list_food
+      - action: give_anou_updated_list_food
+      - action: display_food
+
+    - story: simple order food restaurant loop change list food
+    steps: 
+      - intent: change_food
+      - action: change_list_food
+      - intent: change_food
+      - action: change_list_food
+
+  

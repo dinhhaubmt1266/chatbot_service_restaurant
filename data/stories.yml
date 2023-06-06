@@ -1,0 +1,272 @@
+version: "3.0"
+
+stories:
+  - story: simple order food restaurant
+    steps: 
+      - intent: greet
+      - action: action_greet
+      - intent: answer_service
+      - action: ask_name_food
+      - intent: customer_order_food
+      - action: get_name_food
+      - action: question_quantity_food
+      - intent: anwser_quantity_food
+      - action: question_add_food
+      - intent: confirm_add_order_food
+      - action: ask_name_food
+      - intent: customer_order_food
+      - action: get_name_food
+      - action: question_quantity_food
+      - intent: anwser_quantity_food
+      - action: question_add_food
+      - intent: deny_add_order_food
+      - action: display_food
+      - intent: confirm_information_food
+      - action: question_quantity_people
+      - intent: answer_quantity_people
+      - action: get_quantity_people
+      - intent: the_time_using_service
+      - action: get_time_using
+      - action: ask_name_customer
+      - intent: answer_name
+      - action: get_name_customer
+      - intent: answer_phone_number
+      - action: get_phone_number
+      - action: display_information_customer
+      - intent: confirm_information
+      - action: goodbye
+
+  - story: action change list food
+    steps: 
+      - intent: deny_add_order_food
+      - action: display_food
+      - intent: don't_agreet_information
+      - action: question_infor_food_change
+      - intent: infor_food_customer_change
+      - action: get_infor_change_food
+      - action: question_food_change
+      - intent: change_food
+      - action: change_list_food
+      - action: give_anou_updated_list_food
+      - action: display_food
+      - intent: don't_agreet_information
+      - action: question_infor_food_change
+      - intent: infor_food_customer_change
+      - action: get_infor_change_food
+      - action: question_food_change
+      - intent: change_food
+      - action: change_list_food
+      - action: give_anou_updated_list_food
+      - action: display_food
+
+  - story: action change list information
+    steps: 
+      - intent: answer_phone_number
+      - action: get_phone_number
+      - action: display_information_customer
+      - intent: don't_agreet_information
+      - action: question_infor_change
+      - intent: confirm_change_infor
+      - action: get_infor_change
+      - action: question_infor_change_of_customer
+      - intent: infor_change_of_customer
+      - action: get_infor_of_customer
+      - action: update_infor_of_customer
+      - action: display_information_customer
+      - intent: don't_agreet_information
+      - action: question_infor_change
+      - intent: confirm_change_infor
+      - action: get_infor_change
+      - action: question_infor_change_of_customer
+      - intent: infor_change_of_customer
+      - action: get_infor_of_customer
+      - action: update_infor_of_customer
+      - action: display_information_customer
+
+  - story: action change list information loop
+    steps: 
+      - intent: answer_phone_number
+      - action: get_phone_number
+      - action: display_information_customer
+      - intent: confirm_change_infor
+      - action: get_infor_change
+      - action: question_infor_change_of_customer
+      - intent: infor_change_of_customer
+      - action: get_infor_of_customer
+      - action: update_infor_of_customer
+      - action: display_information_customer
+      - intent: confirm_change_infor
+      - action: get_infor_change
+      - action: question_infor_change_of_customer
+      - intent: infor_change_of_customer
+      - action: get_infor_of_customer
+      - action: update_infor_of_customer
+      - action: display_information_customer
+
+
+  # - story: greet and question service
+  #   steps:
+  #     # greet
+  #     - intent: greet
+  #     - action: action_greet
+  #     - intent: answer_service
+  #     - action: ask_name_food
+  
+  # - story: order simple food
+  #   steps:
+  #     # greet
+  #     - intent: customer_order_food
+  #     - action: get_name_food
+  #     - action: question_quantity_food
+  #     - intent: anwser_quantity_food
+  #     - action: question_add_food
+
+  # - story: add order food
+  #   steps:
+  #     - intent: confirm_add_order_food
+  #     - action: ask_name_food
+  
+  # - story: don't correct list food
+  #   steps: 
+  #     - intent: deny_add_order_food
+  #     - action: display_food
+  #     - intent: don't_agreet_information
+  #     - action: question_infor_food_change
+  #     - intent: infor_food_customer_change
+  #     - action: get_infor_change_food
+  #     - action: question_food_change
+  #     - intent: change_food
+  #     - action: change_list_food
+  #     - action: give_anou_updated_list_food
+  #     - action: display_food
+  #     - intent: confirm_information_food
+  #     - action: question_quantity_people
+  #     - intent: answer_quantity_people
+  #     - action: get_quantity_people
+  #     - intent: the_time_using_service
+  #     - action: get_time_using
+  #     - action: ask_name_customer
+  #     - intent: answer_name
+  #     - action: get_name_customer
+  #     - intent: answer_phone_number
+  #     - action: get_phone_number
+  #     - action: display_information_customer
+
+  # - story: don't correct list food fast 1
+  #   steps: 
+  #     - intent: deny_add_order_food
+  #     - action: display_food
+  #     - intent: infor_food_customer_change
+  #     - action: get_infor_change_food
+  #     - action: question_food_change
+  #     - intent: change_food
+  #     - action: change_list_food
+  #     - action: give_anou_updated_list_food
+  #     - action: display_food
+  #     - intent: confirm_information_food
+  #     - action: question_quantity_people
+  #     - intent: answer_quantity_people
+  #     - action: get_quantity_people
+  #     - intent: the_time_using_service
+  #     - action: get_time_using
+  #     - action: ask_name_customer
+  #     - intent: answer_name
+  #     - action: get_name_customer
+  #     - intent: answer_phone_number
+  #     - action: get_phone_number
+  #     - action: display_information_customer
+
+  # - story: don't agreat infor and need change
+  #   steps:
+  #     - intent: answer_phone_number
+  #     - action: get_phone_number
+  #     - action: display_information_customer
+  #     - intent: don't_agreet_information
+  #     - action: question_infor_change
+  #     - intent: confirm_change_infor
+  #     - action: get_infor_change
+  #     - action: question_infor_change_of_customer
+  #     - intent: infor_change_of_customer
+  #     - action: get_infor_of_customer
+  #     - action: update_infor_of_customer
+  #     - action: display_information_customer
+
+  # - story: don't agreat infor and need change fast 1
+  #   steps:
+  #     - intent: answer_phone_number
+  #     - action: get_phone_number
+  #     - action: display_information_customer
+  #     - intent: confirm_change_infor
+  #     - action: get_infor_change
+  #     - action: question_infor_change_of_customer
+
+  # - story: confirm agreat infor and goodbye
+  #   steps:
+  #     - intent: infor_change_of_customer
+  #     - action: get_infor_of_customer
+  #     - action: update_infor_of_customer
+  #     - action: display_information_customer
+  #     - intent: confirm_information
+  #     - action: goodbye
+
+# - story: interactive_story_1
+#   steps:
+#   - intent: greet
+#   - action: action_greet
+#   - intent: answer_service
+#     entities:
+#     - service: Đặt tiệc
+#   - slot_was_set:
+#     - service: Đặt tiệc
+#   - action: ask_name_food
+#   - slot_was_set:
+#     - service: Đặt tiệc
+#   - intent: customer_order_food
+#     entities:
+#     - name_food: Cừu hầm ngũ vị, cari hành tím, tỏi đen, nấm truffle và sốt tiêu Phú Quốc
+#     - quantity_food: '23'
+#     - quantity_food: '23'
+#     - quantity_people: '23'
+#     - quantity_people: '23'
+#   - slot_was_set:
+#     - name_food: Cừu hầm ngũ vị, cari hành tím, tỏi đen, nấm truffle và sốt tiêu Phú Quốc
+#   - slot_was_set:
+#     - quantity_food: '23'
+#   - slot_was_set:
+#     - quantity_people: '23'
+#   - action: get_name_food
+#   - slot_was_set:
+#     - name_food: Cừu hầm ngũ vị, cari hành tím, tỏi đen, nấm truffle và sốt tiêu Phú Quốc
+#   - action: question_quantity_food
+#   - intent: anwser_quantity_food
+#     entities:
+#     - quantity_food: '3'
+#     - quantity_food: '3'
+#     - quantity_food: '3'
+#     - quantity_people: '3'
+#     - quantity_people: '3'
+#   - slot_was_set:
+#     - quantity_food: '3'
+#   - slot_was_set:
+#     - quantity_people: '3'
+#   - action: question_add_food
+#   - slot_was_set:
+#     - quantity_food: '3'
+#   - intent: deny_add_order_food
+#   - action: display_food
+#   - intent: confirm_information_food
+#   - action: question_quantity_people
+#   - intent: answer_quantity_people
+#     entities:
+#     - quantity_people: '6'
+#     - quantity_food: '6'
+#     - quantity_food: '6'
+#     - quantity_people: '6'
+#     - quantity_people: '6'
+#   - slot_was_set:
+#     - quantity_food: '6'
+#   - slot_was_set:
+#     - quantity_people: '6'
+#   - action: get_quantity_people
+#   - slot_was_set:
+#     - quantity_people: '6'

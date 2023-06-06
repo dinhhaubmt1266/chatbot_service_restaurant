@@ -1,0 +1,298 @@
+[
+  {
+    "text": "1",
+    "intent": "anwser_quantity_food",
+    "intent_prediction": {
+      "name": "the_time_using_service",
+      "confidence": 0.5462747812271118
+    }
+  },
+  {
+    "text": "15",
+    "intent": "anwser_quantity_food",
+    "intent_prediction": {
+      "name": "the_time_using_service",
+      "confidence": 0.5462747812271118
+    }
+  },
+  {
+    "text": "1",
+    "intent": "answer_quantity_people",
+    "intent_prediction": {
+      "name": "the_time_using_service",
+      "confidence": 0.5462747812271118
+    }
+  },
+  {
+    "text": "Tôi cần 1",
+    "intent": "answer_quantity_people",
+    "intent_prediction": {
+      "name": "anwser_quantity_food",
+      "confidence": 0.8450790643692017
+    }
+  },
+  {
+    "text": "được rồi",
+    "intent": "confirm_information_food",
+    "intent_prediction": {
+      "name": "deny_add_order_food",
+      "confidence": 0.7404688000679016
+    }
+  },
+  {
+    "text": "đã đúng thông tin",
+    "intent": "confirm_information_food",
+    "intent_prediction": {
+      "name": "confirm_information",
+      "confidence": 0.7667905688285828
+    }
+  },
+  {
+    "text": "xác nhận đúng",
+    "intent": "confirm_information_food",
+    "intent_prediction": {
+      "name": "confirm_information",
+      "confidence": 0.5542744398117065
+    }
+  },
+  {
+    "text": "Đúng thông tin món ăn rồi ạ",
+    "intent": "confirm_information_food",
+    "intent_prediction": {
+      "name": "confirm_information",
+      "confidence": 0.6243335604667664
+    }
+  },
+  {
+    "text": "Đã đúng",
+    "intent": "confirm_information_food",
+    "intent_prediction": {
+      "name": "confirm_information",
+      "confidence": 0.6532688736915588
+    }
+  },
+  {
+    "text": "Xác nhận đúng",
+    "intent": "confirm_information_food",
+    "intent_prediction": {
+      "name": "confirm_information",
+      "confidence": 0.5643541216850281
+    }
+  },
+  {
+    "text": "đúng món ăn",
+    "intent": "confirm_information_food",
+    "intent_prediction": {
+      "name": "confirm_information",
+      "confidence": 0.5599051117897034
+    }
+  },
+  {
+    "text": "đúng rồi",
+    "intent": "confirm_information",
+    "intent_prediction": {
+      "name": "confirm_information_food",
+      "confidence": 0.7004952430725098
+    }
+  },
+  {
+    "text": "chuẩn",
+    "intent": "confirm_information",
+    "intent_prediction": {
+      "name": "confirm_information_food",
+      "confidence": 0.5964224338531494
+    }
+  },
+  {
+    "text": "phải rồi",
+    "intent": "confirm_information",
+    "intent_prediction": {
+      "name": "confirm_information_food",
+      "confidence": 0.7190507054328918
+    }
+  },
+  {
+    "text": "tên tôi Tân",
+    "intent": "answer_name",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.5043787360191345
+    }
+  },
+  {
+    "text": "Tôi tên Anh",
+    "intent": "answer_name",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.518171489238739
+    }
+  },
+  {
+    "text": "Anh tên Quốc",
+    "intent": "answer_name",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.9998156428337097
+    }
+  },
+  {
+    "text": "Hằng nhé",
+    "intent": "answer_name",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.9950917959213257
+    }
+  },
+  {
+    "text": "khoa",
+    "intent": "answer_name",
+    "intent_prediction": {
+      "name": "the_time_using_service",
+      "confidence": 0.7960637807846069
+    }
+  },
+  {
+    "text": "Tôi tên bảo",
+    "intent": "answer_name",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.758348822593689
+    }
+  },
+  {
+    "text": "anh là Nghĩa",
+    "intent": "answer_name",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.9967700242996216
+    }
+  },
+  {
+    "text": "tên [Anh]",
+    "intent": "answer_name",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.6024205684661865
+    }
+  },
+  {
+    "text": "số tôi 01234456789",
+    "intent": "answer_phone_number",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.5007402896881104
+    }
+  },
+  {
+    "text": "số tôi là 0123456789",
+    "intent": "answer_phone_number",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.7502574324607849
+    }
+  },
+  {
+    "text": "số tôi 012345688789",
+    "intent": "answer_phone_number",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.5007402896881104
+    }
+  },
+  {
+    "text": "số tôi là 012345688789",
+    "intent": "answer_phone_number",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.7502574324607849
+    }
+  },
+  {
+    "text": "số tôi đày 012345688789",
+    "intent": "answer_phone_number",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.9615755081176758
+    }
+  },
+  {
+    "text": "tên của tôi là An",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "answer_name",
+      "confidence": 0.5764967203140259
+    }
+  },
+  {
+    "text": "tên tôi là Anh",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "answer_name",
+      "confidence": 0.6427936553955078
+    }
+  },
+  {
+    "text": "tên anh là Tùng",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "answer_name",
+      "confidence": 0.600246787071228
+    }
+  },
+  {
+    "text": "tên chị là Nhung",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "answer_name",
+      "confidence": 0.5561326146125793
+    }
+  },
+  {
+    "text": "sửa lại 012345688789",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "answer_phone_number",
+      "confidence": 0.4859083890914917
+    }
+  },
+  {
+    "text": "đổi qua ngày mai",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "the_time_using_service",
+      "confidence": 0.9969621300697327
+    }
+  },
+  {
+    "text": "sửa 012345688789",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "answer_phone_number",
+      "confidence": 0.7258058190345764
+    }
+  },
+  {
+    "text": "sang ngày mai",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "the_time_using_service",
+      "confidence": 0.9999966621398926
+    }
+  },
+  {
+    "text": "đổi sang mai",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "don't_agreet_information",
+      "confidence": 0.6465659141540527
+    }
+  },
+  {
+    "text": "chỉnh lại 012345688789",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "answer_phone_number",
+      "confidence": 0.4638049304485321
+    }
+  }
+]

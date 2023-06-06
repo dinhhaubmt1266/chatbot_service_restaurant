@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Chat widget</title>
+    </head>
+    <body>
+<!--div id="rasa-chat-widget" data-websocket-url="https://localhost:5055/"></div>
+<script src="https://unpkg.com/@rasahq/rasa-chat" type="application/javascript"></script-->
+
+        <!-- <div id="rasa-chat-widget" data-websocket-url="https://localhost:5005/"></div>
+        <script src="https://unpkg.com/@rasahq/rasa-chat" type="application/javascript"></script> -->
+        <h1>Rasa ChatBot UI</h1>
+            <div id="rasa-chat-widget" data-websocket-url="http://localhost:5005/"></div>
+            <script src="https://unpkg.com/@rasahq/rasa-chat" type="application/javascript"></script>
+        <!-- <script>
+            !(function () {
+            let e = document.createElement("script"),
+                t = document.head || document.getElementsByTagName("head")[0];
+            (e.src = "https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.js"),
+                (e.async = !0),
+                (e.onload = () => {
+                window.WebChat.default(
+                    {
+                    socketUrl: "http://localhost:5005",
+                    // add other props here
+                    },
+                    null
+                );
+                }),
+                t.insertBefore(e, t.firstChild);
+            })();
+        </script> -->
+    </body>
+</html>
+ 
+<!-- credit: https://rasa.com/docs/rasa/connectors/your-own-website/ --> 

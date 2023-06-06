@@ -1,0 +1,159 @@
+{
+  "answer_phone_number": {
+    "precision": 0.8421052631578947,
+    "recall": 0.7619047619047619,
+    "f1-score": 0.8,
+    "support": 21,
+    "confused_with": {
+      "infor_change_of_customer": 5
+    }
+  },
+  "customer_order_food": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 423,
+    "confused_with": {}
+  },
+  "infor_food_customer_change": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 42,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "don't_agreet_information": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "confirm_information_food": {
+    "precision": 0.85,
+    "recall": 0.7083333333333334,
+    "f1-score": 0.7727272727272727,
+    "support": 24,
+    "confused_with": {
+      "confirm_information": 6,
+      "deny_add_order_food": 1
+    }
+  },
+  "answer_service": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "confirm_change_infor": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 31,
+    "confused_with": {}
+  },
+  "confirm_information": {
+    "precision": 0.7142857142857143,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.7692307692307692,
+    "support": 18,
+    "confused_with": {
+      "confirm_information_food": 3
+    }
+  },
+  "change_food": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 129,
+    "confused_with": {}
+  },
+  "the_time_using_service": {
+    "precision": 0.94,
+    "recall": 1.0,
+    "f1-score": 0.9690721649484536,
+    "support": 94,
+    "confused_with": {}
+  },
+  "answer_name": {
+    "precision": 0.8620689655172413,
+    "recall": 0.7575757575757576,
+    "f1-score": 0.8064516129032258,
+    "support": 33,
+    "confused_with": {
+      "infor_change_of_customer": 7,
+      "the_time_using_service": 1
+    }
+  },
+  "infor_change_of_customer": {
+    "precision": 0.918918918918919,
+    "recall": 0.9315068493150684,
+    "f1-score": 0.9251700680272108,
+    "support": 146,
+    "confused_with": {
+      "answer_name": 4,
+      "answer_phone_number": 3
+    }
+  },
+  "confirm_add_order_food": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 24,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "answer_quantity_people": {
+    "precision": 1.0,
+    "recall": 0.9130434782608695,
+    "f1-score": 0.9545454545454545,
+    "support": 23,
+    "confused_with": {
+      "the_time_using_service": 1,
+      "anwser_quantity_food": 1
+    }
+  },
+  "anwser_quantity_food": {
+    "precision": 0.9230769230769231,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.888888888888889,
+    "support": 14,
+    "confused_with": {
+      "the_time_using_service": 2
+    }
+  },
+  "deny_add_order_food": {
+    "precision": 0.9565217391304348,
+    "recall": 1.0,
+    "f1-score": 0.9777777777777777,
+    "support": 22,
+    "confused_with": {}
+  },
+  "accuracy": 0.9660861594867094,
+  "macro avg": {
+    "precision": 0.9402024550418775,
+    "recall": 0.9312689094925545,
+    "f1-score": 0.9344658748988603,
+    "support": 1091
+  },
+  "weighted avg": {
+    "precision": 0.9660510356782489,
+    "recall": 0.9660861594867094,
+    "f1-score": 0.9655398397755068,
+    "support": 1091
+  }
+}

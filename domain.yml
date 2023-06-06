@@ -1,0 +1,239 @@
+version: '3.0'
+session_config:
+  session_expiration_time: 10
+  carry_over_slots_to_new_session: true
+intents:
+- answer_name
+- answer_phone_number
+- answer_quantity_people
+- answer_service
+- anwser_quantity_food
+- change_food
+- confirm_add_order_food
+- confirm_change_infor
+- confirm_information
+- confirm_information_food
+- customer_order_food
+- deny_add_order_food
+- don't_agreet_information
+- greet
+- infor_change_of_customer
+- infor_food_customer_change
+- the_time_using_service
+entities:
+- day
+- infor_change
+- infor_food_change
+- month
+- name_customer
+- name_food
+- name_food_delete
+- phone_number
+- quantity_food
+- quantity_people
+- service
+- time
+- year
+slots:
+  infor_food_change:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: infor_food_change
+  infor_change:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: infor_change
+  service:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: service
+  name_food_delete:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: name_food_delete
+  name_food:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: name_food
+  name_food_index:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: name_food_index
+  quantity_food:
+    type: float
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: quantity_food
+    max_value: 1.0
+    min_value: 0.0
+  name_customer:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: name_customer
+  phone_number:
+    type: float
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: phone_number
+    max_value: 1.0
+    min_value: 0.0
+  quantity_people:
+    type: float
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: quantity_people
+    max_value: 1.0
+    min_value: 0.0
+  time:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: time
+  day:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: day
+  month:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: month
+  year:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: year
+responses:
+  utter_greet:
+  - text: Nhà hàng Bot_Rasa xin chào quý khách.
+  utter_question_service:
+  - text: Quý khách có nhu cầu sử dụng dịch vụ gì của nhà hàng chúng tôi ạ?
+  utter_display_menu:
+  - text: |
+      Khai vị: 
+        1. Càng cua bách hoa
+        2. Gỏi hải sâm kèm bánh phồng tôm
+        3. Súp hải sản hoàng kim
+        4. Sushi thập cẩm
+        5. Salad hoàng đế
+        6. Súp rau củ kiểu Ý
+        7. Súp cua bể hải sâm
+        8. Súp nghêu kem sữa
+        9. Súp hải sản & nấm linh chi
+        10. Súp bào ngư & cua măng tây
+        11. Salad cá ngừ
+        12. Súp bào ngư & cua măng tây
+        13. Súp cua & bong bóng cá
+        14. Súp bào ngư phú quý
+
+      Món chính:
+        15. Baba hầm hải vị kèm bánh mì
+        16. Bào ngư hầm nấm đông cô và cải thìa
+        17. Bò úc áp chảo
+        18. Bò nấu cay kiểu Mã Lai kèm bánh mì
+        19. Bồ câu tiềm thảo mộc hạt sen
+        20. Bò sốt vang Marzano
+        21. Cá hồi nướng mè
+        22. Chân ngỗng sò điệp sốt bào ngư
+        23. Cừu hầm ngũ vị, cari hành tím, tỏi đen, nấm truffle và sốt tiêu Phú Quốc
+        24. Chem chép New Zealand sốt tiêu
+        25. Gà hấp đông cô sốt bào ngư
+        26. Ghẹ rang muối kiểu Âu
+        27. Heo sữa quay kèm bánh mỳ
+        28. Nem nướng cuốn cá hồi và trứng cá đen
+        29. Thăn bò mỹ sốt tiêu
+        30. Tôm càng nướng wasabi
+        31. Tôm hùm nửa con đút lò kiểu Pháp
+        32. Tôm càng rang muối Hồng Kông
+        33. Tôm xào miến hồng kông
+        34. Sườn non chiên Trung Hoa
+
+      Tráng miệng:
+        35. Bánh su với kem phomai hạt dẻ
+        36. Bánh xốp Macaron vị trà xanh
+        37. Bánh kem mềm chanh dây, trái cây, vụn hạt dẻ, xốt rượu Malibu
+        38. Bánh cam chiên với nước cốt dừa
+        39. Bánh tiramisu
+        40. Bánh mochi
+        41. Chè hạnh nhân tàu hũ với long nhãn
+        42. Trái vải hạnh nhân lạnh
+        43. Thạch xoài ăn kèm sữa dừa
+        44. Salad trái cây tươi & vani
+  utter_request_choice_food:
+  - text: Đây là thực đơn của nhà hàng chúng tôi. Xin mời quý khách chọn món
+  utter_ask_quantity_food:
+  - text: Quý khách muốn sử dụng món {name_food} với số lượng bao nhiêu ạ?
+  utter_display_food:
+  - text: Quý khách muốn sử dụng món {name_food} với số lượng {quantity_food}
+  utter_ask_quantity_people:
+  - text: Quý khách {service} cho bao nhiêu người?
+  utter_ask_timeday:
+  - text: Quý khách muốn {service} vào thời gian nào ?
+  utter_display_time_table:
+  - text: Quý khách đã đặt bàn {quantity_people} chỗ vào lúc {time} {day}-{month}-{year}.
+  utter_ask_name:
+  - text: 'Quý khách vui cho biêt thông tin của quý khách. Tên quý khách: '
+  utter_ask_phone_number:
+  - text: 'Số điện thoại của quý khách: '
+  utter_ask_add_food:
+  - text: Quý khách có muốn đặt thêm món không ạ?
+  utter_display_infor:
+  - text: |
+      Thông tin quý khách đã đặt:
+      Tên quý khách: {name_customer}
+      Số điên thoại: {phone_number}
+      Số lượng người dự tiệc: {quantity_people}
+      Thời gian đặt tiệc: {time} {day}-{month}-{year}
+  utter_ask_confirm:
+  - text: Quý khách vui lòng kiểm tra và xác nhận thông tin ạ!
+  utter_thank:
+  - text: Cảm ơn quý khách đã sử dụng dịch vu của nhà hàng chúng tôi
+  utter_default:
+  - text: Quý khách có thể nói lại không ạ
+actions:
+- action_greet
+- ask_name_customer
+- ask_name_food
+- change_list_food
+- display_food
+- display_information_customer
+- get_infor_change
+- get_infor_change_food
+- get_infor_of_customer
+- get_name_customer
+- get_name_food
+- get_phone_number
+- get_quantity_people
+- get_time_using
+- give_anou_updated_list_food
+- goodbye
+- question_add_food
+- question_food_change
+- question_infor_change
+- question_infor_change_of_customer
+- question_infor_food_change
+- question_quantity_food
+- question_quantity_people
+- update_infor_of_customer

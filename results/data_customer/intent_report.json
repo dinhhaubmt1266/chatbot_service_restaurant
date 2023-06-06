@@ -1,0 +1,165 @@
+{
+  "don't_agreet_information": {
+    "precision": 0.6923076923076923,
+    "recall": 0.75,
+    "f1-score": 0.7199999999999999,
+    "support": 12,
+    "confused_with": {
+      "infor_food_customer_change": 2,
+      "confirm_change_infor": 1
+    }
+  },
+  "confirm_add_order_food": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {
+      "don't_agreet_information": 1,
+      "deny_add_order_food": 1
+    }
+  },
+  "answer_name": {
+    "precision": 0.3333333333333333,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.3333333333333333,
+    "support": 6,
+    "confused_with": {
+      "infor_change_of_customer": 3,
+      "deny_add_order_food": 1
+    }
+  },
+  "infor_change_of_customer": {
+    "precision": 0.5,
+    "recall": 0.5416666666666666,
+    "f1-score": 0.52,
+    "support": 24,
+    "confused_with": {
+      "answer_quantity_people": 4,
+      "the_time_using_service": 2
+    }
+  },
+  "change_food": {
+    "precision": 0.9444444444444444,
+    "recall": 1.0,
+    "f1-score": 0.9714285714285714,
+    "support": 17,
+    "confused_with": {}
+  },
+  "answer_quantity_people": {
+    "precision": 0.35714285714285715,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.5,
+    "support": 6,
+    "confused_with": {
+      "infor_change_of_customer": 1
+    }
+  },
+  "deny_add_order_food": {
+    "precision": 0.625,
+    "recall": 1.0,
+    "f1-score": 0.7692307692307693,
+    "support": 5,
+    "confused_with": {}
+  },
+  "confirm_information_food": {
+    "precision": 0.5714285714285714,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6153846153846153,
+    "support": 6,
+    "confused_with": {
+      "confirm_information": 1,
+      "deny_add_order_food": 1
+    }
+  },
+  "the_time_using_service": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 10,
+    "confused_with": {}
+  },
+  "customer_order_food": {
+    "precision": 1.0,
+    "recall": 0.92,
+    "f1-score": 0.9583333333333334,
+    "support": 25,
+    "confused_with": {
+      "anwser_quantity_food": 1,
+      "change_food": 1
+    }
+  },
+  "greet": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 5,
+    "confused_with": {}
+  },
+  "answer_service": {
+    "precision": 1.0,
+    "recall": 0.5555555555555556,
+    "f1-score": 0.7142857142857143,
+    "support": 9,
+    "confused_with": {
+      "answer_quantity_people": 4
+    }
+  },
+  "confirm_change_infor": {
+    "precision": 0.8823529411764706,
+    "recall": 0.5555555555555556,
+    "f1-score": 0.6818181818181819,
+    "support": 27,
+    "confused_with": {
+      "infor_change_of_customer": 6,
+      "answer_name": 3
+    }
+  },
+  "confirm_information": {
+    "precision": 0.75,
+    "recall": 0.5,
+    "f1-score": 0.6,
+    "support": 6,
+    "confused_with": {
+      "confirm_information_food": 3
+    }
+  },
+  "answer_phone_number": {
+    "precision": 0.6,
+    "recall": 0.5,
+    "f1-score": 0.5454545454545454,
+    "support": 6,
+    "confused_with": {
+      "infor_change_of_customer": 3
+    }
+  },
+  "infor_food_customer_change": {
+    "precision": 0.8888888888888888,
+    "recall": 1.0,
+    "f1-score": 0.9411764705882353,
+    "support": 16,
+    "confused_with": {}
+  },
+  "anwser_quantity_food": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
+    "support": 10,
+    "confused_with": {
+      "answer_quantity_people": 1
+    }
+  },
+  "accuracy": 0.76,
+  "macro avg": {
+    "precision": 0.7477391409052309,
+    "recall": 0.7562418300653595,
+    "f1-score": 0.7339715436428239,
+    "support": 200
+  },
+  "weighted avg": {
+    "precision": 0.7935271403433168,
+    "recall": 0.76,
+    "f1-score": 0.7621277312556726,
+    "support": 200
+  }
+}

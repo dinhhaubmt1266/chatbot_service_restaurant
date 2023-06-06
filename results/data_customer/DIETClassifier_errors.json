@@ -1,0 +1,1470 @@
+[
+  {
+    "text": "Tôi muốn đặt bàn",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "đặt bàn",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi muốn đặt tiệc trước",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "đặt tiệc",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 9,
+        "end": 23,
+        "confidence_entity": 0.674199640750885,
+        "value": "đặt tiệc trước",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "đặt bàn",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "đặt bàn",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi cần đặt bàn",
+    "entities": [
+      {
+        "start": 8,
+        "end": 15,
+        "value": "đặt bàn",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho tôi đặt tiệc nha bot",
+    "entities": [
+      {
+        "start": 8,
+        "end": 16,
+        "value": "đặt tiệc",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 8,
+        "end": 16,
+        "confidence_entity": 0.9967299699783325,
+        "value": "đặt tiệc",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name_food_delete",
+        "start": 21,
+        "end": 24,
+        "confidence_entity": 0.8611884713172913,
+        "value": "bot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "đặt bàn nha",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "đặt bàn",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho tôi sửa bot",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "infor_change",
+        "start": 12,
+        "end": 15,
+        "confidence_entity": 0.474540650844574,
+        "value": "bot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi cần chỉnh lại bot",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "infor_change",
+        "start": 18,
+        "end": 21,
+        "confidence_entity": 0.9055913686752319,
+        "value": "bot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chỉnh lại giúp anh",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "name_customer",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.6218544244766235,
+        "value": "anh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chỉnh lại xíu ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "name_food_delete",
+        "start": 10,
+        "end": 13,
+        "confidence_entity": 0.6999213695526123,
+        "value": "xíu",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chỉnh lại thông tin món ăn ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "infor_food_change",
+        "start": 16,
+        "end": 26,
+        "confidence_entity": 0.5514364838600159,
+        "value": "tin món ăn",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sửa lại thông tin món ăn ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "infor_food_change",
+        "start": 14,
+        "end": 24,
+        "confidence_entity": 0.761431097984314,
+        "value": "tin món ăn",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "10 luôn",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "10",
+        "entity": "quantity_food"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity_people",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.6656804084777832,
+        "value": "10",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 0,
+        "end": 2,
+        "value": "10",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 0,
+        "end": 2,
+        "value": "10",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 0,
+        "end": 2,
+        "value": "10",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 0,
+        "end": 2,
+        "value": "10",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "số lượng 7",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "7",
+        "entity": "quantity_food"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity_people",
+        "start": 9,
+        "end": 10,
+        "confidence_entity": 0.9965923428535461,
+        "value": "7",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 9,
+        "end": 10,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 9,
+        "end": 10,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 9,
+        "end": 10,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 9,
+        "end": 10,
+        "value": "7",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "tên ạ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "tên",
+        "entity": "infor_change"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "đổi tên lại nha bot",
+    "entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "value": "tên",
+        "entity": "infor_change"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name_customer",
+        "start": 16,
+        "end": 19,
+        "confidence_entity": 0.7278640270233154,
+        "value": "bot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tên sai rồi",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "tên",
+        "entity": "infor_change"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tên tôi sai á bot",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "tên",
+        "entity": "infor_change"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name_customer",
+        "start": 14,
+        "end": 17,
+        "confidence_entity": 0.5176832675933838,
+        "value": "bot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "thời gian sai rồi bot",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "thời gian",
+        "entity": "infor_change"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "infor_change",
+        "start": 18,
+        "end": 21,
+        "confidence_entity": 0.9843442440032959,
+        "value": "bot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tên sai rồi bot",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "tên",
+        "entity": "infor_change"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "nhầm tên rồi",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "value": "tên",
+        "entity": "infor_change"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "thời gian không đúng",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "thời gian",
+        "entity": "infor_change"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tên sai bot",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "tên",
+        "entity": "infor_change"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "thay đổi giờ ạ",
+    "entities": [
+      {
+        "start": 9,
+        "end": 12,
+        "value": "giờ",
+        "entity": "infor_change"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 9,
+        "end": 12,
+        "confidence_entity": 0.6657830476760864,
+        "value": "giờ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "đổi giờ lại",
+    "entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "value": "giờ",
+        "entity": "infor_change"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "thay đổi giờ lại nhé",
+    "entities": [
+      {
+        "start": 9,
+        "end": 12,
+        "value": "giờ",
+        "entity": "infor_change"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "đổi số điện thoại giúp tôi nhé bot",
+    "entities": [
+      {
+        "start": 4,
+        "end": 17,
+        "value": "số điện thoại",
+        "entity": "infor_change"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "infor_change",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9459965229034424,
+        "value": "số điện",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "infor_change",
+        "start": 31,
+        "end": 34,
+        "confidence_entity": 0.9014646410942078,
+        "value": "bot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "số điện thoại sai rồi bot",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "số điện thoại",
+        "entity": "infor_change"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "infor_change",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.7016361355781555,
+        "value": "số",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "infor_change",
+        "start": 22,
+        "end": 25,
+        "confidence_entity": 0.9880037307739258,
+        "value": "bot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tên kim",
+    "entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "value": "kim",
+        "entity": "name_customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "year",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.4629761278629303,
+        "value": "name_customer",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "name_customer",
+        "start": 4,
+        "end": 7,
+        "confidence_entity": 0.9717280864715576,
+        "value": "kim",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Toàn nhé",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "Toàn",
+        "entity": "name_customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "day",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.7201871871948242,
+        "value": "Toàn",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tăng số phần món ăn",
+    "entities": [
+      {
+        "start": 8,
+        "end": 19,
+        "value": "phần món ăn",
+        "entity": "infor_food_change"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "infor_food_change",
+        "start": 5,
+        "end": 19,
+        "confidence_entity": 0.9986151456832886,
+        "value": "số phần món ăn",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hủy món ăn nha",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "hủy món",
+        "entity": "infor_food_change"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "infor_food_change",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.9934753775596619,
+        "value": "delete_food",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "xóa món ăn nha bot",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "xóa món",
+        "entity": "infor_food_change"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "infor_food_change",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.9958844780921936,
+        "value": "delete_food",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "name_food_delete",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.7876699566841125,
+        "value": "bot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "xóa món ăn giùm tôi",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "xóa món",
+        "entity": "infor_food_change"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "infor_food_change",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.9983225464820862,
+        "value": "delete_food",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tôi không muốn sử dụng món ăn",
+    "entities": [
+      {
+        "start": 4,
+        "end": 29,
+        "value": "không muốn sử dụng món ăn",
+        "entity": "infor_food_change"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "infor_food_change",
+        "start": 15,
+        "end": 17,
+        "confidence_entity": 0.9567707180976868,
+        "value": "sử",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "infor_food_change",
+        "start": 18,
+        "end": 29,
+        "confidence_entity": 0.954727828502655,
+        "value": "dụng món ăn",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hủy món nha bot",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "hủy món",
+        "entity": "infor_food_change"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "infor_food_change",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.987356424331665,
+        "value": "delete_food",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "name_food_delete",
+        "start": 12,
+        "end": 15,
+        "confidence_entity": 0.5756517648696899,
+        "value": "bot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "thay đổi số lượng món ăn giúp tôi nha bot",
+    "entities": [
+      {
+        "start": 9,
+        "end": 24,
+        "value": "số lượng món ăn",
+        "entity": "infor_food_change"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "infor_food_change",
+        "start": 9,
+        "end": 24,
+        "confidence_entity": 0.998539924621582,
+        "value": "quantity_food_change",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "infor_food_change",
+        "start": 38,
+        "end": 41,
+        "confidence_entity": 0.513867974281311,
+        "value": "bot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "giảm số lượng món ăn nha bot",
+    "entities": [
+      {
+        "start": 5,
+        "end": 20,
+        "value": "số lượng món ăn",
+        "entity": "infor_food_change"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "infor_food_change",
+        "start": 5,
+        "end": 20,
+        "confidence_entity": 0.8534415364265442,
+        "value": "quantity_food_change",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "name_food",
+        "start": 25,
+        "end": 28,
+        "confidence_entity": 0.622573971748352,
+        "value": "bot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngày 28.5",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "28.5",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "day",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.9741621613502502,
+        "value": "Ngày 28.5",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 5,
+        "end": 7,
+        "value": "28",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 5,
+        "end": 7,
+        "value": "28",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 8,
+        "end": 9,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 5,
+        "end": 7,
+        "value": "28",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 8,
+        "end": 9,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 5,
+        "end": 7,
+        "value": "28",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 8,
+        "end": 9,
+        "value": "5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 0,
+        "end": 7,
+        "value": "Ngày 28",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 0,
+        "end": 7,
+        "value": "Ngày 28",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Vào ngày mai",
+    "entities": [
+      {
+        "start": 4,
+        "end": 12,
+        "value": "ngày mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.8729040622711182,
+        "value": "Vào",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.9252038598060608,
+        "value": "ngày mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 4,
+        "end": 12,
+        "value": "ngày mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 4,
+        "end": 12,
+        "value": "ngày mai",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "thứ 3 lúc 10 giờ sáng",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "thứ 3",
+        "entity": "day"
+      },
+      {
+        "start": 10,
+        "end": 21,
+        "value": "10 giờ sáng",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "weekday",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9811006784439087,
+        "value": "Súp hải sản hoàng kim",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 10,
+        "end": 21,
+        "confidence_entity": 0.9920308589935303,
+        "value": "10 giờ sáng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 4,
+        "end": 5,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 10,
+        "end": 12,
+        "value": "10",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 4,
+        "end": 5,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 10,
+        "end": 12,
+        "value": "10",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 4,
+        "end": 5,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 10,
+        "end": 12,
+        "value": "10",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 4,
+        "end": 5,
+        "value": "3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 10,
+        "end": 12,
+        "value": "10",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 10,
+        "end": 21,
+        "value": "10 giờ sáng",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "weekday",
+        "start": 0,
+        "end": 5,
+        "value": "thứ 3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 10,
+        "end": 21,
+        "value": "10 giờ sáng",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "weekday",
+        "start": 0,
+        "end": 5,
+        "value": "thứ 3",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "xóa món bào ngư hầm nấm giúp mình ạ",
+    "entities": [
+      {
+        "start": 8,
+        "end": 23,
+        "value": "bào ngư hầm nấm",
+        "entity": "name_food_delete"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name_food_delete",
+        "start": 8,
+        "end": 23,
+        "confidence_entity": 0.9996008276939392,
+        "value": "Bào ngư hầm nấm đông cô và cải thìa",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "name_food_delete",
+        "start": 29,
+        "end": 33,
+        "confidence_entity": 0.9993808269500732,
+        "value": "mình",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "lấy món Thạch xoài thay cho món Súp hải sản hoàng kim",
+    "entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "value": "Thạch xoài",
+        "entity": "name_food"
+      },
+      {
+        "start": 32,
+        "end": 53,
+        "value": "Súp hải sản hoàng kim",
+        "entity": "name_food_delete"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name_food",
+        "start": 8,
+        "end": 18,
+        "confidence_entity": 0.8670346736907959,
+        "value": "Thạch xoài ăn kèm sữa dừa",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "name_food",
+        "start": 32,
+        "end": 53,
+        "confidence_entity": 0.9999533891677856,
+        "value": "Súp hải sản hoàng kim",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "name_food",
+        "start": 32,
+        "end": 53,
+        "value": "Súp hải sản hoàng kim",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "name_food_delete",
+        "start": 32,
+        "end": 53,
+        "value": "Súp hải sản hoàng kim",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "name_food",
+        "start": 32,
+        "end": 53,
+        "value": "Súp hải sản hoàng kim",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "name_food_delete",
+        "start": 32,
+        "end": 53,
+        "value": "Súp hải sản hoàng kim",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "lấy món nem nướng cuốn cá hồi thay cho món Bào ngư hầm nấm đông cô",
+    "entities": [
+      {
+        "start": 8,
+        "end": 29,
+        "value": "nem nướng cuốn cá hồi",
+        "entity": "name_food"
+      },
+      {
+        "start": 43,
+        "end": 66,
+        "value": "Bào ngư hầm nấm đông cô",
+        "entity": "name_food_delete"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name_food_delete",
+        "start": 8,
+        "end": 29,
+        "confidence_entity": 0.6116225719451904,
+        "value": "Nem nướng cuốn cá hồi và trứng cá đen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "name_food",
+        "start": 43,
+        "end": 66,
+        "confidence_entity": 0.9495077133178711,
+        "value": "Bào ngư hầm nấm đông cô và cải thìa",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn thay đổi món Baba hầm hải vị thành món Số 1 trong menu",
+    "entities": [
+      {
+        "start": 22,
+        "end": 37,
+        "value": "Baba hầm hải vị",
+        "entity": "name_food_delete"
+      },
+      {
+        "start": 48,
+        "end": 52,
+        "value": "Số 1",
+        "entity": "name_food"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name_food_delete",
+        "start": 22,
+        "end": 37,
+        "confidence_entity": 0.9994727969169617,
+        "value": "Baba hầm hải vị kèm bánh mì",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "name_food",
+        "start": 48,
+        "end": 52,
+        "confidence_entity": 0.7017826437950134,
+        "value": "Càng cua bách hoa",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "name_food",
+        "start": 59,
+        "end": 63,
+        "confidence_entity": 0.9997022747993469,
+        "value": "menu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 51,
+        "end": 52,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 51,
+        "end": 52,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 51,
+        "end": 52,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 51,
+        "end": 52,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "chỉnh lại tên tôi là Mai",
+    "entities": [
+      {
+        "start": 21,
+        "end": 24,
+        "value": "Mai",
+        "entity": "name_customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "day",
+        "start": 21,
+        "end": 24,
+        "confidence_entity": 0.6532938480377197,
+        "value": "Mai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 21,
+        "end": 24,
+        "value": "Mai",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 21,
+        "end": 24,
+        "value": "Mai",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Huệ nha bot",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "Huệ",
+        "entity": "name_customer"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Phú ạ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "Phú",
+        "entity": "name_customer"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tăng tên 6 nhá",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "6",
+        "entity": "quantity_people"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "phone_number",
+        "start": 9,
+        "end": 10,
+        "confidence_entity": 0.9823046922683716,
+        "value": "6",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 9,
+        "end": 10,
+        "value": "6",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_food",
+        "start": 9,
+        "end": 10,
+        "value": "6",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 9,
+        "end": 10,
+        "value": "6",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "quantity_people",
+        "start": 9,
+        "end": 10,
+        "value": "6",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "dời lại qua ngày kia",
+    "entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "value": "ngày kia",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "day",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.681355357170105,
+        "value": "ngày",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "infor_change",
+        "start": 17,
+        "end": 20,
+        "confidence_entity": 0.3575546145439148,
+        "value": "kia",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chuyển lại ngày hôm nay",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "value": "ngày hôm nay",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "day",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9983932375907898,
+        "value": "hôm nay",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "day",
+        "start": 16,
+        "end": 23,
+        "value": "hôm nay",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "day",
+        "start": 16,
+        "end": 23,
+        "value": "hôm nay",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "đặt giúp tôi món tôm càng nướng",
+    "entities": [
+      {
+        "start": 17,
+        "end": 31,
+        "value": "tôm càng nướng",
+        "entity": "name_food"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name_food_delete",
+        "start": 17,
+        "end": 31,
+        "confidence_entity": 0.9843218326568604,
+        "value": "Tôm càng nướng wasabi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,386 @@
+[
+  {
+    "text": "Tôi muốn đặt bàn",
+    "intent": "answer_service",
+    "intent_prediction": {
+      "name": "answer_quantity_people",
+      "confidence": 0.9954560995101929
+    }
+  },
+  {
+    "text": "đặt bàn",
+    "intent": "answer_service",
+    "intent_prediction": {
+      "name": "answer_quantity_people",
+      "confidence": 0.9988896250724792
+    }
+  },
+  {
+    "text": "tôi cần đặt bàn",
+    "intent": "answer_service",
+    "intent_prediction": {
+      "name": "answer_quantity_people",
+      "confidence": 0.9983474016189575
+    }
+  },
+  {
+    "text": "đặt bàn nha",
+    "intent": "answer_service",
+    "intent_prediction": {
+      "name": "answer_quantity_people",
+      "confidence": 0.9979054927825928
+    }
+  },
+  {
+    "text": "tôi cần chỉnh lại bot",
+    "intent": "don't_agreet_information",
+    "intent_prediction": {
+      "name": "confirm_change_infor",
+      "confidence": 0.7301535606384277
+    }
+  },
+  {
+    "text": "chỉnh lại thông tin món ăn ạ",
+    "intent": "don't_agreet_information",
+    "intent_prediction": {
+      "name": "infor_food_customer_change",
+      "confidence": 0.6213998198509216
+    }
+  },
+  {
+    "text": "sửa lại thông tin món ăn ạ",
+    "intent": "don't_agreet_information",
+    "intent_prediction": {
+      "name": "infor_food_customer_change",
+      "confidence": 0.9604527950286865
+    }
+  },
+  {
+    "text": "số lượng 7",
+    "intent": "anwser_quantity_food",
+    "intent_prediction": {
+      "name": "answer_quantity_people",
+      "confidence": 0.8225908279418945
+    }
+  },
+  {
+    "text": "đúng rồi bot",
+    "intent": "confirm_information",
+    "intent_prediction": {
+      "name": "confirm_information_food",
+      "confidence": 0.6432275772094727
+    }
+  },
+  {
+    "text": "đúng rồi nha",
+    "intent": "confirm_information",
+    "intent_prediction": {
+      "name": "confirm_information_food",
+      "confidence": 0.7099875211715698
+    }
+  },
+  {
+    "text": "đúng ạ",
+    "intent": "confirm_information",
+    "intent_prediction": {
+      "name": "confirm_information_food",
+      "confidence": 0.9955177903175354
+    }
+  },
+  {
+    "text": "so điện thoại của tôi là 0123456789",
+    "intent": "answer_phone_number",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.9998914003372192
+    }
+  },
+  {
+    "text": "0123456789 đây nhé",
+    "intent": "answer_phone_number",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.953395426273346
+    }
+  },
+  {
+    "text": "số tôi là 0123456789",
+    "intent": "answer_phone_number",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.5752477645874023
+    }
+  },
+  {
+    "text": "Số lượng 80 người",
+    "intent": "answer_quantity_people",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.7240891456604004
+    }
+  },
+  {
+    "text": "cần ạ",
+    "intent": "confirm_add_order_food",
+    "intent_prediction": {
+      "name": "don't_agreet_information",
+      "confidence": 0.34294697642326355
+    }
+  },
+  {
+    "text": "có nhé",
+    "intent": "confirm_add_order_food",
+    "intent_prediction": {
+      "name": "deny_add_order_food",
+      "confidence": 0.5990058183670044
+    }
+  },
+  {
+    "text": "món ăn đúng rồi bot",
+    "intent": "confirm_information_food",
+    "intent_prediction": {
+      "name": "confirm_information",
+      "confidence": 0.5002775192260742
+    }
+  },
+  {
+    "text": "đủ rồi á",
+    "intent": "confirm_information_food",
+    "intent_prediction": {
+      "name": "deny_add_order_food",
+      "confidence": 0.999811589717865
+    }
+  },
+  {
+    "text": "tên ạ",
+    "intent": "confirm_change_infor",
+    "intent_prediction": {
+      "name": "answer_name",
+      "confidence": 0.5068402886390686
+    }
+  },
+  {
+    "text": "đổi tên lại nha bot",
+    "intent": "confirm_change_infor",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.8000845313072205
+    }
+  },
+  {
+    "text": "tên sai rồi",
+    "intent": "confirm_change_infor",
+    "intent_prediction": {
+      "name": "don't_agreet_information",
+      "confidence": 0.8841004967689514
+    }
+  },
+  {
+    "text": "tên tôi sai á bot",
+    "intent": "confirm_change_infor",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.6658545136451721
+    }
+  },
+  {
+    "text": "tên sai rồi bot",
+    "intent": "confirm_change_infor",
+    "intent_prediction": {
+      "name": "don't_agreet_information",
+      "confidence": 0.6392757892608643
+    }
+  },
+  {
+    "text": "nhầm tên rồi",
+    "intent": "confirm_change_infor",
+    "intent_prediction": {
+      "name": "answer_name",
+      "confidence": 0.6897075772285461
+    }
+  },
+  {
+    "text": "thời gian không đúng",
+    "intent": "confirm_change_infor",
+    "intent_prediction": {
+      "name": "don't_agreet_information",
+      "confidence": 0.6678463220596313
+    }
+  },
+  {
+    "text": "tên sai bot",
+    "intent": "confirm_change_infor",
+    "intent_prediction": {
+      "name": "answer_name",
+      "confidence": 0.8757357597351074
+    }
+  },
+  {
+    "text": "thay đổi ngày",
+    "intent": "confirm_change_infor",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.7016740441322327
+    }
+  },
+  {
+    "text": "thay đổi giờ ạ",
+    "intent": "confirm_change_infor",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.8591272830963135
+    }
+  },
+  {
+    "text": "đổi giờ lại",
+    "intent": "confirm_change_infor",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.7294731736183167
+    }
+  },
+  {
+    "text": "thay đổi giờ lại nhé",
+    "intent": "confirm_change_infor",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.7251355051994324
+    }
+  },
+  {
+    "text": "Hồ Thanh Kim",
+    "intent": "answer_name",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.9999823570251465
+    }
+  },
+  {
+    "text": "Tôi tên là Tùng",
+    "intent": "answer_name",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.5532256364822388
+    }
+  },
+  {
+    "text": "Toàn nhé",
+    "intent": "answer_name",
+    "intent_prediction": {
+      "name": "deny_add_order_food",
+      "confidence": 0.9421386122703552
+    }
+  },
+  {
+    "text": "Hoàng ạ",
+    "intent": "answer_name",
+    "intent_prediction": {
+      "name": "infor_change_of_customer",
+      "confidence": 0.9983012080192566
+    }
+  },
+  {
+    "text": "Huệ nha bot",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "answer_name",
+      "confidence": 0.6424424648284912
+    }
+  },
+  {
+    "text": "Phú ạ",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7869572043418884
+    }
+  },
+  {
+    "text": "0987456123 số tôi đây",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "answer_phone_number",
+      "confidence": 0.9511352777481079
+    }
+  },
+  {
+    "text": "đây ạ 02365478956",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "answer_phone_number",
+      "confidence": 0.9257003664970398
+    }
+  },
+  {
+    "text": "tôi cần bàn 6 chỗ thôi",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "answer_quantity_people",
+      "confidence": 0.9998544454574585
+    }
+  },
+  {
+    "text": "3 chỗ thôi ạ",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "answer_quantity_people",
+      "confidence": 0.9972445964813232
+    }
+  },
+  {
+    "text": "bàn 4 là được rồi",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "answer_quantity_people",
+      "confidence": 0.44838982820510864
+    }
+  },
+  {
+    "text": "7 ghế nha bot",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "answer_quantity_people",
+      "confidence": 0.9994731545448303
+    }
+  },
+  {
+    "text": "dời lại qua ngày kia",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "confirm_change_infor",
+      "confidence": 0.8682556748390198
+    }
+  },
+  {
+    "text": "hôm nay nha bot",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "the_time_using_service",
+      "confidence": 0.9988486766815186
+    }
+  },
+  {
+    "text": "7 giờ tối nha bot",
+    "intent": "infor_change_of_customer",
+    "intent_prediction": {
+      "name": "the_time_using_service",
+      "confidence": 0.9999544620513916
+    }
+  },
+  {
+    "text": "Món 24",
+    "intent": "customer_order_food",
+    "intent_prediction": {
+      "name": "anwser_quantity_food",
+      "confidence": 0.8859316110610962
+    }
+  },
+  {
+    "text": "đặt giúp tôi món tôm càng nướng",
+    "intent": "customer_order_food",
+    "intent_prediction": {
+      "name": "change_food",
+      "confidence": 0.9999432563781738
+    }
+  }
+]

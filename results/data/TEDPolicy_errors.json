@@ -1,0 +1,260 @@
+[
+  {
+    "text": "đặt tiệc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "đặt tiệc",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho tôi món số 25",
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "value": "số 25",
+        "entity": "name_food"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho tôi 5 phần",
+    "entities": [
+      {
+        "start": 8,
+        "end": 9,
+        "value": "5",
+        "entity": "quantity_food"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho tôi món tôm càng rang",
+    "entities": [
+      {
+        "start": 12,
+        "end": 25,
+        "value": "tôm càng rang",
+        "entity": "name_food"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "5",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "5",
+        "entity": "quantity_food"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho tôi món thứ 32",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "thứ 32",
+        "entity": "name_food"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho 5",
+    "entities": [
+      {
+        "start": 4,
+        "end": 5,
+        "value": "5",
+        "entity": "quantity_food"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "5",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "5",
+        "entity": "quantity_people"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "9 giờ sáng ngày mai",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "9 giờ sáng",
+        "entity": "time"
+      },
+      {
+        "start": 11,
+        "end": 19,
+        "value": "ngày mai",
+        "entity": "day"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi tên là An",
+    "entities": [
+      {
+        "start": 11,
+        "end": 13,
+        "value": "An",
+        "entity": "name_customer"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "012345688789",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "012345688789",
+        "entity": "phone_number"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "đặt tiệc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "đặt tiệc",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho tôi món bánh mì",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "value": "bánh mì",
+        "entity": "name_food"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho tôi món tôm càng rang",
+    "entities": [
+      {
+        "start": 12,
+        "end": 25,
+        "value": "tôm càng rang",
+        "entity": "name_food"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn thay đổi tên món ăn",
+    "entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "tên món ăn",
+        "entity": "infor_food_change"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn thay đổi món Bánh mochi thành món Bánh su với kem phomai hạt dẻ",
+    "entities": [
+      {
+        "start": 22,
+        "end": 32,
+        "value": "Bánh mochi",
+        "entity": "name_food_delete"
+      },
+      {
+        "start": 43,
+        "end": 72,
+        "value": "Bánh su với kem phomai hạt dẻ",
+        "entity": "name_food"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "chị muốn giảm số lượng phần ăn",
+    "entities": [
+      {
+        "start": 14,
+        "end": 30,
+        "value": "số lượng phần ăn",
+        "entity": "infor_food_change"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "giảm số lượng món Chè hạnh nhân tàu hũ thành 18 phần",
+    "entities": [
+      {
+        "start": 18,
+        "end": 38,
+        "value": "Chè hạnh nhân tàu hũ",
+        "entity": "name_food"
+      },
+      {
+        "start": 45,
+        "end": 47,
+        "value": "18",
+        "entity": "quantity_food"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn hủy món",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "hủy món",
+        "entity": "infor_food_change"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hủy món Súp bào ngư giúp tôi nhé",
+    "entities": [
+      {
+        "start": 8,
+        "end": 19,
+        "value": "Súp bào ngư",
+        "entity": "name_food_delete"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

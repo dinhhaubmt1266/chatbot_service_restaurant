@@ -1,0 +1,44 @@
+recipe: default.v1
+language: vi
+
+pipeline:
+ 
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: "char_wb"
+    min_ngram: 1
+    max_ngram: 4
+  - name: DIETClassifier
+    epochs: 450
+    # evaluate_on_number_of_examples: 0
+    # evaluate_every_number_of_epochs: 10
+    # tensorboard_log_directory: "./tensorboard"
+    # tensorboard_log_level: "epoch"
+
+  - name: EntitySynonymMapper
+
+  - name: RegexEntityExtractor
+    use_lookup_tables: True
+    use_word_boundaries: True
+
+  - name: FallbackClassifier
+    threshold: 0.5
+  # - name: ResponseSelector
+  #   epochs: 200
+
+policies:
+  - name: MemoizationPolicy
+  - name: TEDPolicy
+    constrain_similarities: true
+    max_history: 10
+    epochs: 450
+    # evaluate_on_number_of_examples: 0
+    # evaluate_every_number_of_epochs: 10
+    # tensorboard_log_directory: "./tensorboard"
+    # tensorboard_log_level: "epoch"
+
+  - name: RulePolicy
+    core_fallback_action_name: utter_default
